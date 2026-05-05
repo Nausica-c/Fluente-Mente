@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+
+{% include head.html %}
+
+<body>
+
+  <!-- =========================
+  HEADER
+  ========================= -->
+  <header>
+    <h2><a href="/">FluenteMente</a></h2>
+    <p>Impara le lingue in modo intelligente</p>
+  </header>
+
+  <!-- =========================
+  BRIDGE BOX (solo Pinterest traffic)
+  ========================= -->
+  {% if page.source == "pinterest" %}
+    {% include bridge-box.html %}
+  {% endif %}
+
+  <!-- =========================
+  ARTICOLO
+  ========================= -->
+  <article>
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.subtitle %}
+      <p><strong>{{ page.subtitle }}</strong></p>
+    {% endif %}
+
+    <!-- INTRO CTA (progressive start) -->
+    {% include cta-progressive.html stage="start" %}
+
+    <div class="content">
+      {{ content }}
+    </div>
+
+    <!-- MID CTA -->
+    {% include cta-progressive.html stage="middle" %}
+
+    <!-- TRUST ELEMENT -->
+    {% include trust-box.html %}
+
+    <!-- FINAL CTA -->
+    {% include cta-progressive.html stage="end" %}
+
+    <!-- PROMO BOX (conversione finale Babbel) -->
+    {% include promo-box.html position="end" %}
+
+  </article>
+
+  <!-- =========================
+  FOOTER
+  ========================= -->
+  <footer>
+    <p>© {{ site.time | date: "%Y" }} FluenteMente</p>
+  </footer>
+
+</body>
+</html>
