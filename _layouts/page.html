@@ -8,56 +8,31 @@
   <!-- =========================
   HEADER
   ========================= -->
-  <header>
-    <h2><a href="/">FluenteMente</a></h2>
-    <p>Impara le lingue in modo intelligente</p>
-  </header>
+  {% include header.html %}
 
   <!-- =========================
-  BRIDGE BOX (solo Pinterest traffic)
+  CONTENUTO PAGINA
   ========================= -->
-  {% if page.source == "pinterest" %}
-    {% include bridge-box.html %}
-  {% endif %}
+  <main>
 
-  <!-- =========================
-  ARTICOLO
-  ========================= -->
-  <article>
+    <article>
 
-    <h1>{{ page.title }}</h1>
+      <!-- TITLE -->
+      <h1>{{ page.title }}</h1>
 
-    {% if page.subtitle %}
-      <p><strong>{{ page.subtitle }}</strong></p>
-    {% endif %}
+      <!-- CONTENUTO -->
+      <div class="content">
+        {{ content }}
+      </div>
 
-    <!-- INTRO CTA (progressive start) -->
-    {% include cta-progressive.html stage="start" %}
+    </article>
 
-    <div class="content">
-      {{ content }}
-    </div>
-
-    <!-- MID CTA -->
-    {% include cta-progressive.html stage="middle" %}
-
-    <!-- TRUST ELEMENT -->
-    {% include trust-box.html %}
-
-    <!-- FINAL CTA -->
-    {% include cta-progressive.html stage="end" %}
-
-    <!-- PROMO BOX (conversione finale Babbel) -->
-    {% include promo-box.html position="end" %}
-
-  </article>
+  </main>
 
   <!-- =========================
   FOOTER
   ========================= -->
-  <footer>
-    <p>© {{ site.time | date: "%Y" }} FluenteMente</p>
-  </footer>
+  {% include footer.html %}
 
 </body>
 </html>
