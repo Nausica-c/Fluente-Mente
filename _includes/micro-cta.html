@@ -1,0 +1,37 @@
+<div class="micro-cta">
+
+{% assign cta_type = page.cta | default: page.categories[1] %}
+
+{% if cta_type == "speaking" %}
+
+  <p><strong>🔥 Prova subito:</strong> anche pochi minuti al giorno fanno la differenza.</p>
+  <a href="#">👉 Allenati ora</a>
+
+{% elsif cta_type == "principianti" %}
+
+  <p><strong>📌 Inizia semplice:</strong> costruisci basi solide prima di tutto.</p>
+  <a href="#">👉 Vedi il percorso</a>
+
+{% elsif cta_type == "grammatica" %}
+
+  <p><strong>📌 Focus:</strong> usa solo ciò che serve davvero.</p>
+  <a href="#">👉 Regole essenziali</a>
+
+{% elsif cta_type == "vocabolario" %}
+
+  <p><strong>🧠 Metodo:</strong> usa le parole in contesti reali.</p>
+  <a href="#">👉 Costruisci vocabolario</a>
+
+{% elsif cta_type == "errori" %}
+
+  <p><strong>⚠️ Attenzione:</strong> stai forse commettendo questo errore?</p>
+  <a href="#">👉 Correggilo subito</a>
+
+{% else %}
+
+  <p><strong>💡 Suggerimento:</strong> la costanza batte lo studio intensivo.</p>
+  <a href="#">👉 Inizia ora</a>
+
+{% endif %}
+
+</div>
