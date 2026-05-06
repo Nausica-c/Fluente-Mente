@@ -45,6 +45,11 @@ Pensi in italiano e poi traduci.
 
 👉 questo rallenta tutto
 
+Se sei all’inizio, il problema spesso nasce da come hai iniziato a studiare.
+
+👉 Parti dalle basi giuste:
+[Come iniziare a studiare inglese da zero]({{ '/inglese/principianti/come-iniziare-inglese-da-zero/' | relative_url }})
+
 ---
 
 ### 2. Sai le parole, ma non le frasi
@@ -100,6 +105,11 @@ Impara blocchi già pronti:
 - “What do you mean?”
 
 👉 ti danno velocità immediata
+
+Se non sai da dove iniziare con le frasi:
+
+👉 qui trovi le più utili:
+[Frasi base in inglese da usare subito]({{ '/inglese/principianti/frasi-base-inglese-subito/' | relative_url }})
 
 ---
 
@@ -189,3 +199,6 @@ Babbel ti aiuta a costruire frasi e automatismi passo dopo passo.
 - devi allenare il parlato, non solo lo studio  
 
 👉 parlare si allena, non si “impara leggendo”
+
+👉 Vuoi sbloccare il parlato più velocemente?
+Parti da frasi semplici e usale ogni giorno.
