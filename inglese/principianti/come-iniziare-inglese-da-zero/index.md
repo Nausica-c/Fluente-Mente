@@ -30,6 +30,11 @@ Ma imparare una lingua funziona al contrario.
 
 Serve partire da ciò che **ti permette di usarla subito**.
 
+Se ti sembra di capire ma non riuscire a parlare, è normale.
+
+👉 Scopri perché succede qui:
+[Perché capisco l’inglese ma non riesco a parlarlo]({{ '/inglese/speaking/perche-capisco-ma-non-parlo-inglese/' | relative_url }})
+
 ---
 
 ## Il metodo semplice per iniziare davvero
@@ -51,6 +56,10 @@ Studia frasi come:
 - "Can you repeat?"
 
 👉 così inizi subito a pensare in inglese
+
+Se vuoi iniziare subito, parti da qui:
+
+👉 [Frasi base in inglese da usare subito]({{ '/inglese/principianti/frasi-base-inglese-subito/' | relative_url }})
 
 ---
 
