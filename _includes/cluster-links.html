@@ -1,0 +1,73 @@
+{% comment %}
+CLUSTER LINKS - FluenteMente
+Genera automaticamente link contestuali per cluster linguistici
+Usato dentro gli articoli per internal linking SEO + Pinterest funnel
+{% endcomment %}
+
+<div class="cluster-links">
+
+  {% if page.url contains '/inglese/principianti/' %}
+  <h3>📘 Continua il tuo percorso base</h3>
+  <ul>
+    <li><a href="{{ '/inglese/principianti/frasi-base-inglese-subito/' | relative_url }}">Frasi base inglese subito</a></li>
+    <li><a href="{{ '/inglese/principianti/presentarsi-in-inglese/' | relative_url }}">Presentarsi in inglese</a></li>
+    <li><a href="{{ '/inglese/principianti/come-iniziare-inglese-da-zero/' | relative_url }}">Come iniziare inglese da zero</a></li>
+  </ul>
+  {% endif %}
+
+  {% if page.url contains '/inglese/speaking/' %}
+  <h3>🗣️ Migliora il tuo speaking</h3>
+  <ul>
+    <li><a href="{{ '/inglese/speaking/sbloccare-parlato-inglese/' | relative_url }}">Sbloccare il parlato inglese</a></li>
+    <li><a href="{{ '/inglese/speaking/blocco-parlato-inglese/' | relative_url }}">Blocco nel parlare inglese</a></li>
+    <li><a href="{{ '/inglese/speaking/tecnica-shadowing-inglese/' | relative_url }}">Tecnica shadowing inglese</a></li>
+  </ul>
+  {% endif %}
+
+  {% if page.url contains '/inglese/viaggio/' %}
+  <h3>✈️ Inglese per viaggiare meglio</h3>
+  <ul>
+    <li><a href="{{ '/inglese/viaggio/inglese-per-viaggiare/' | relative_url }}">Guida completa viaggio</a></li>
+    <li><a href="{{ '/inglese/viaggio/frasi-aeroporto-inglese/' | relative_url }}">Frasi aeroporto inglese</a></li>
+    <li><a href="{{ '/inglese/viaggio/ordinare-ristorante-inglese/' | relative_url }}">Ristorante in inglese</a></li>
+    <li><a href="{{ '/inglese/viaggio/check-in-hotel-inglese/' | relative_url }}">Hotel check-in inglese</a></li>
+  </ul>
+  {% endif %}
+
+  {% if page.url contains '/inglese/business/' %}
+  <h3>💼 Inglese professionale</h3>
+  <ul>
+    <li><a href="{{ '/inglese/business/email-lavoro-efficaci-inglese/' | relative_url }}">Email professionali</a></li>
+    <li><a href="{{ '/inglese/business/colloquio-lavoro-inglese/' | relative_url }}">Colloquio inglese</a></li>
+    <li><a href="{{ '/inglese/business/video-call-inglese/' | relative_url }}">Video call inglese</a></li>
+  </ul>
+  {% endif %}
+
+  {% if page.url contains '/inglese/mindset/' %}
+  <h3>🧠 Mindset linguistico</h3>
+  <ul>
+    <li><a href="{{ '/inglese/mindset/pensare-in-inglese/' | relative_url }}">Pensare in inglese</a></li>
+    <li><a href="{{ '/inglese/mindset/superare-paura-parlare-inglese/' | relative_url }}">Superare la paura di parlare</a></li>
+    <li><a href="{{ '/inglese/mindset/metodo-poliglotti/' | relative_url }}">Metodo dei poliglotti</a></li>
+  </ul>
+  {% endif %}
+
+  {% if page.url contains '/inglese/grammatica/' %}
+  <h3>📚 Grammatica essenziale</h3>
+  <ul>
+    <li><a href="{{ '/inglese/grammatica/tempi-verbali-base/' | relative_url }}">Tempi verbali base</a></li>
+    <li><a href="{{ '/inglese/grammatica/present-simple-vs-continuous/' | relative_url }}">Present simple vs continuous</a></li>
+    <li><a href="{{ '/inglese/grammatica/errori-comuni/' | relative_url }}">Errori comuni</a></li>
+  </ul>
+  {% endif %}
+
+  {% if page.url contains '/inglese/vocabolario/' %}
+  <h3>📖 Vocabolario utile</h3>
+  <ul>
+    <li><a href="{{ '/inglese/vocabolario/100-parole-essenziali/' | relative_url }}">100 parole essenziali</a></li>
+    <li><a href="{{ '/inglese/vocabolario/parole-piu-usate/' | relative_url }}">Parole più usate</a></li>
+    <li><a href="{{ '/inglese/vocabolario/frasi-quotidiane/' | relative_url }}">Frasi quotidiane</a></li>
+  </ul>
+  {% endif %}
+
+</div>
