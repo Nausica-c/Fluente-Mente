@@ -29,6 +29,10 @@ Ma nella vita reale non usi parole isolate.
 
 Ecco perché è il punto di partenza migliore.
 
+Se non sai da dove partire con l’inglese:
+
+👉 segui questo percorso semplice:
+[Come iniziare a studiare inglese da zero]({{ '/inglese/principianti/come-iniziare-inglese-da-zero/' | relative_url }})
 ---
 
 ## Frasi base essenziali (da usare subito)
@@ -90,6 +94,11 @@ Non fare questo:
 - memorizzare liste infinite
 
 👉 non diventi fluente così
+
+Se ti senti bloccato quando provi a parlare, non è un caso.
+
+👉 scopri perché succede:
+[Perché capisco l’inglese ma non riesco a parlarlo]({{ '/inglese/speaking/perche-capisco-ma-non-parlo-inglese/' | relative_url }})
 
 ---
 
@@ -158,3 +167,4 @@ Babbel ti aiuta a fare proprio questo.
 - devi parlare subito, non aspettare  
 
 👉 la fluidità nasce dall’uso, non dalla teoria
+👉 Il passo successivo è usare queste frasi in conversazione reale.
