@@ -1,65 +1,61 @@
 ---
 layout: cluster
 title: "Inglese per viaggiare senza stress"
-description: "Le migliori frasi, situazioni e conversazioni in inglese per viaggiare con più sicurezza."
-
-permalink: /inglese/viaggio/
-
+description: "Tutte le frasi, situazioni e guide per comunicare in inglese durante i viaggi."
 cluster: viaggio
-
 cta_level: soft
-
+permalink: /inglese/viaggio/
 ---
 
-# ✈️ Inglese per viaggiare senza stress
+{% assign cluster = site.data.viaggio %}
 
-Viaggiare all’estero può essere entusiasmante,  
-ma quando non sai cosa dire in inglese anche una situazione semplice può diventare stressante.
-
-In questa guida trovi:
-- frasi utili in aeroporto
-- conversazioni in hotel
-- inglese per ristoranti
-- situazioni reali in viaggio
-- errori comuni da evitare
-
----
-
-## 🧳 Situazioni principali
-
-### ✈️ Aeroporto
-- Check-in
-- Imbarco
-- Controlli sicurezza
-
-### 🏨 Hotel
-- Check-in hotel
-- Check-out
-- Airbnb
-
-### 🍝 Ristorante
-- Ordinare
-- Parlare con i camerieri
-
-### 🌍 Situazioni reali
-- Taxi
-- Indicazioni
-- Shopping
-- Emergenze
-
----
-
-## 🚀 Perché imparare inglese per viaggiare
-
-Il problema non è conoscere tante parole.
-
-Il problema è riuscire a comunicare nel momento giusto:
-- quando devi fare il check-in
-- quando hai bisogno di aiuto
-- quando devi capire una risposta veloce
-
----
+# ✈️ Inglese per viaggiare
 
 {% include article/cta-soft.html %}
 
 ---
+
+## 🧭 Esplora il cluster
+
+{% for section_key in cluster.sections %}
+
+  {% assign section = cluster.sections[section_key] %}
+
+  ## {{ section.title }}
+
+  <ul>
+
+    {% for article in section.articles %}
+
+      <li>
+        <a href="{{ article.url }}">
+          {{ article.title }}
+        </a>
+      </li>
+
+    {% endfor %}
+
+  </ul>
+
+{% endfor %}
+
+---
+
+## 🚀 Perché questo cluster esiste
+
+Imparare inglese per viaggiare non significa studiare grammatica,  
+ma saper reagire nelle situazioni reali.
+
+---
+
+## 🌍 Cosa trovi qui
+
+- Aeroporto
+- Hotel
+- Ristorante
+- Situazioni reali
+- Viaggi quotidiani
+
+---
+
+{% include article/cta-mid.html %}
