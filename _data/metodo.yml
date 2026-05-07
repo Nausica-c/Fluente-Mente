@@ -1,0 +1,57 @@
+title: "Metodo FluenteMente"
+cluster: metodo
+url: /inglese/metodo/come-imparare-inglese/
+icon: "⚙️"
+description: "Sistema completo per imparare l’inglese in modo naturale, veloce e pratico."
+
+sections:
+
+  - id: fondamenta
+    title: "Fondamenta del metodo"
+    articles:
+      - title: "Come imparare l’inglese davvero"
+        url: /inglese/metodo/come-imparare-inglese-davvero/
+      - title: "Metodo 80/20 inglese"
+        url: /inglese/metodo/metodo-80-20-inglese/
+      - title: "Imparare inglese senza estero"
+        url: /inglese/metodo/imparare-inglese-senza-estero/
+
+  - id: mentalita
+    title: "Mentalità e blocchi"
+    articles:
+      - title: "Come pensare in inglese"
+        url: /inglese/metodo/pensare-in-inglese/
+      - title: "Errori nell’apprendimento"
+        url: /inglese/metodo/errori-apprendimento-inglese/
+      - title: "Sblocco nel parlare inglese"
+        url: /inglese/metodo/sblocco-parlare-inglese/
+
+  - id: pratica
+    title: "Pratica quotidiana"
+    articles:
+      - title: "Routine 20 minuti inglese"
+        url: /inglese/metodo/routine-20-minuti-inglese/
+      - title: "Apprendimento attivo vs passivo"
+        url: /inglese/metodo/attivo-vs-passivo/
+      - title: "Abitudine inglese quotidiana"
+        url: /inglese/metodo/abitudine-inglese/
+
+  - id: input_output
+    title: "Input e output"
+    articles:
+      - title: "Imparare inglese con serie TV"
+        url: /inglese/metodo/inglese-con-serie-tv/
+      - title: "Parlare inglese da subito"
+        url: /inglese/metodo/parlare-inglese-subito/
+      - title: "Input massivo vs mirato"
+        url: /inglese/metodo/input-massivo-vs-mirato/
+
+  - id: sistema
+    title: "Sistema completo"
+    articles:
+      - title: "Ciclo completo apprendimento"
+        url: /inglese/metodo/ciclo-apprendimento/
+      - title: "Come capire i progressi"
+        url: /inglese/metodo/progresso-inglese/
+      - title: "Sistema FluenteMente"
+        url: /inglese/metodo/sistema-fluentemente/"
