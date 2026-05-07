@@ -1,0 +1,56 @@
+viaggio:
+  connects:
+    - errori
+    - vocabolario
+    - beginner
+
+errori:
+  connects:
+    - viaggio
+    - grammatica
+    - beginner
+
+vocabolario:
+  connects:
+    - viaggio
+    - beginner
+    - grammatica
+
+beginner:
+  connects:
+    - vocabolario
+    - grammatica
+    - mindset
+
+business:
+  connects:
+    - metodo
+    - mindset
+    - viaggio
+
+metodo:
+  connects:
+    - mindset
+    - beginner
+
+mindset:
+  connects:
+    - metodo
+    - beginner
+    - lifelong-learner
+
+grammatica:
+  connects:
+    - beginner
+    - errori
+    - vocabolario
+
+lifelong-learner:
+  connects:
+    - mindset
+    - business
+
+curiosita:
+  connects:
+    - vocabolario
+    - beginner
