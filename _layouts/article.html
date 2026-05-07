@@ -1,68 +1,13 @@
----
-layout: default
----
+<div class="layout-grid">
 
-{% include seo/schema-seo.html %}
+  {% include cluster/sidebar-auto.html %}
 
-<main class="article-page">
-
-  <!-- HERO -->
-  <header class="article-hero">
-
-    <div class="container">
-
-      {% include seo/breadcrumbs.html %}
-      </nav>
-
-      <!-- Title -->
-      <h1>{{ page.title }}</h1>
-
-      <!-- Description -->
-      {% if page.description %}
-        <p class="article-description">
-          {{ page.description }}
-        </p>
-      {% endif %}
-
-    </div>
-
-  </header>
-
-  <!-- ARTICLE CONTENT -->
-  <!-- ARTICLE CONTENT -->
-<section class="article-content">
-
-  <div class="container">
+  <main>
 
     {{ content }}
 
-    {% include article/related-links.html %}
+    {% include article/related-auto.html %}
 
-  </div>
+  </main>
 
-</section>
-
-  </section>
-
-  <!-- CTA -->
-  <section class="article-cta">
-
-    <div class="container">
-
-      {% if page.cta_level == "soft" %}
-        {% include article/cta-soft.html %}
-      {% endif %}
-
-      {% if page.cta_level == "mid" %}
-        {% include article/cta-mid.html %}
-      {% endif %}
-
-      {% if page.cta_level == "hard" %}
-        {% include article/cta-hard.html %}
-      {% endif %}
-
-    </div>
-
-  </section>
-
-</main>
+</div>
