@@ -1,56 +1,65 @@
+mindset:
+  connects:
+    - metodo
+    - speaking
+    - errori
+
+metodo:
+  connects:
+    - speaking
+    - grammatica
+    - beginner
+
+speaking:
+  connects:
+    - viaggio
+    - business
+    - grammatica
+
 viaggio:
   connects:
-    - errori
+    - speaking
     - vocabolario
-    - beginner
+    - errori
+
+beginner:
+  connects:
+    - mindset
+    - metodo
+    - vocabolario
 
 errori:
   connects:
-    - viaggio
+    - mindset
     - grammatica
     - beginner
 
 vocabolario:
   connects:
+    - speaking
     - viaggio
     - beginner
-    - grammatica
-
-beginner:
-  connects:
-    - vocabolario
-    - grammatica
-    - mindset
-
-business:
-  connects:
-    - metodo
-    - mindset
-    - viaggio
-
-metodo:
-  connects:
-    - mindset
-    - beginner
-
-mindset:
-  connects:
-    - metodo
-    - beginner
-    - lifelong-learner
 
 grammatica:
   connects:
-    - beginner
+    - speaking
+    - metodo
     - errori
-    - vocabolario
+
+business:
+  connects:
+    - speaking
+    - metodo
+    - lifelong-learner
 
 lifelong-learner:
   connects:
     - mindset
     - business
+    - metodo
 
 curiosita:
   connects:
     - vocabolario
+    - mindset
     - beginner
