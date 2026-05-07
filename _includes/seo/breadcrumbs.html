@@ -1,0 +1,21 @@
+<nav class="breadcrumbs">
+
+  <a href="/">Home</a>
+
+  {% if page.cluster %}
+    <span>→</span>
+
+    <a href="/inglese/{{ page.cluster }}/">
+      {{ page.cluster | capitalize }}
+    </a>
+  {% endif %}
+
+  {% if page.category %}
+    <span>→</span>
+
+    <span>
+      {{ page.category | capitalize }}
+    </span>
+  {% endif %}
+
+</nav>
