@@ -1,0 +1,38 @@
+<div class="link-graph">
+
+  <h3>🔗 Percorso di apprendimento</h3>
+
+  {% assign cluster = page.cluster %}
+  {% assign data = site.data[cluster] %}
+
+  {% assign current_found = false %}
+
+  <ul>
+
+    {% for section_key in data.sections %}
+
+      {% assign section = data.sections[section_key] %}
+
+      {% for article in section.articles %}
+
+        {% if article.url == page.url %}
+          {% assign current_found = true %}
+        {% endif %}
+
+        {% if current_found and article.url != page.url %}
+
+          <li>
+            👉 <a href="{{ article.url }}">
+              {{ article.title }}
+            </a>
+          </li>
+
+        {% endif %}
+
+      {% endfor %}
+
+    {% endfor %}
+
+  </ul>
+
+</div>
