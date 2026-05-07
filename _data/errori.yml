@@ -1,0 +1,123 @@
+cluster:
+  name: "Errori"
+  slug: "errori"
+  pillar: "/inglese/errori/"
+  description: "Gli errori inglesi più comuni fatti dagli italiani: false friends, grammatica, conversazione e blocchi mentali."
+  icon: "⚠️"
+
+sections:
+
+  - title: "🔥 Errori più comuni"
+    slug: "errori-comuni"
+
+    articles:
+
+      - title: "Gli errori inglese che fanno tutti gli italiani"
+        url: "/inglese/errori/errori-inglese-italiani/"
+
+      - title: "False friends inglese più pericolosi"
+        url: "/inglese/errori/false-friends-inglese/"
+
+      - title: "Errori grammaticali più comuni in inglese"
+        url: "/inglese/errori/errori-grammaticali-inglese/"
+
+      - title: "Gli errori più comuni quando parli inglese"
+        url: "/inglese/errori/errori-parlare-inglese/"
+
+      - title: "Errori inglese in viaggio"
+        url: "/inglese/errori/errori-inglese-viaggio/"
+
+  - title: "📘 Errori grammaticali"
+    slug: "grammatica"
+
+    articles:
+
+      - title: "Differenza tra make e do"
+        url: "/inglese/errori/make-vs-do/"
+
+      - title: "Differenza tra since e for"
+        url: "/inglese/errori/since-vs-for/"
+
+      - title: "How much vs how many"
+        url: "/inglese/errori/how-much-how-many/"
+
+      - title: "Errori con i tempi verbali inglesi"
+        url: "/inglese/errori/tempi-verbali-inglesi/"
+
+      - title: "Differenza tra too e very"
+        url: "/inglese/errori/too-vs-very/"
+
+      - title: "Differenza tra say e tell in inglese"
+        url: "/inglese/errori/say-vs-tell/"
+
+  - title: "💬 False friends"
+    slug: "false-friends"
+
+    articles:
+
+      - title: "Actually non significa attualmente"
+        url: "/inglese/errori/actually-inglese/"
+
+      - title: "Parents non significa parenti"
+        url: "/inglese/errori/parents-vs-relatives/"
+
+      - title: "Library non significa libreria"
+        url: "/inglese/errori/library-vs-bookshop/"
+
+      - title: "Sympathetic non significa simpatico"
+        url: "/inglese/errori/sympathetic-vs-nice/"
+
+  - title: "🗣️ Conversazione reale"
+    slug: "conversazione"
+
+    articles:
+
+      - title: "Differenza tra boring e bored"
+        url: "/inglese/errori/boring-vs-bored/"
+
+      - title: "House vs home: differenza semplice"
+        url: "/inglese/errori/house-vs-home/"
+
+      - title: "Differenza tra listen e hear"
+        url: "/inglese/errori/listen-vs-hear/"
+
+      - title: "Differenza tra fun e funny"
+        url: "/inglese/errori/fun-vs-funny/"
+
+      - title: "Differenza tra miss e lose"
+        url: "/inglese/errori/miss-vs-lose/"
+
+      - title: "Job vs work: differenza spiegata bene"
+        url: "/inglese/errori/job-vs-work/"
+
+      - title: "People vs persons: quale usare?"
+        url: "/inglese/errori/people-vs-persons/"
+
+      - title: "Advice non va al plurale"
+        url: "/inglese/errori/advice-no-plural/"
+
+      - title: "Excuse me vs sorry"
+        url: "/inglese/errori/excuse-me-vs-sorry/"
+
+      - title: "Wait vs expect"
+        url: "/inglese/errori/wait-vs-expect/"
+
+  - title: "🧠 Blocchi mentali"
+    slug: "mindset"
+
+    articles:
+
+      - title: "La paura di sbagliare in inglese"
+        url: "/inglese/errori/paura-sbagliare-inglese/"
+
+      - title: "Perché tradurre mentalmente ti blocca"
+        url: "/inglese/errori/tradurre-letteralmente-inglese/"
+
+      - title: "Studiare troppa grammatica ti blocca?"
+        url: "/inglese/errori/troppa-grammatica-inglese/"
+
+      - title: "Aspettare di essere perfetti è un errore"
+        url: "/inglese/errori/perfezione-inglese/"
+
+      - title: "Perché capisci inglese ma non riesci a parlarlo"
+        url: "/inglese/errori/capisci-ma-non-parli-inglese/"
