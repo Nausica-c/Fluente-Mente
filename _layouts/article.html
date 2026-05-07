@@ -47,13 +47,18 @@ layout: default
   </header>
 
   <!-- ARTICLE CONTENT -->
-  <section class="article-content">
+  <!-- ARTICLE CONTENT -->
+<section class="article-content">
 
-    <div class="container">
+  <div class="container">
 
-      {{ content }}
+    {{ content }}
 
-    </div>
+    {% include article/related-links.html %}
+
+  </div>
+
+</section>
 
   </section>
 
