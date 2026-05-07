@@ -1,0 +1,33 @@
+<ul>
+
+{% for cluster in site.data.clusters.clusters %}
+
+  <li>
+    <strong>{{ cluster[1].title }}</strong>
+
+    <ul>
+
+    {% assign data = site.data[cluster[0]] %}
+
+    {% for section_key in data.sections %}
+
+      {% assign section = data.sections[section_key] %}
+
+      {% for article in section.articles %}
+
+        <li>
+          <a href="{{ article.url }}">
+            {{ article.title }}
+          </a>
+        </li>
+
+      {% endfor %}
+
+    {% endfor %}
+
+    </ul>
+  </li>
+
+{% endfor %}
+
+</ul>
