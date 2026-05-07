@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Imbarco volo in inglese: frasi utili e semplici
-description: Impara le frasi in inglese per l’imbarco del volo. Guida pratica per viaggiare senza stress.
+title: "Imbarco volo in inglese: frasi utili e semplici"
+description: "Impara le frasi in inglese per l’imbarco del volo. Guida pratica per viaggiare senza stress."
 cta: viaggio
 source: seo
 ---
