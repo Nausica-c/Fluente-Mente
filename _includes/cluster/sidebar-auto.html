@@ -1,0 +1,29 @@
+<aside class="cluster-sidebar">
+
+  <div class="sidebar-title">
+    🌍 Esplora
+  </div>
+
+  {% assign clusters = site.data.clusters.clusters %}
+
+  <ul>
+
+    {% for c in clusters %}
+
+      {% assign key = c[0] %}
+      {% assign data = c[1] %}
+
+      <li>
+        <a href="{{ data.url }}"
+           class="{% if page.url contains key %}active{% endif %}">
+
+          {{ data.icon }} {{ data.title }}
+
+        </a>
+      </li>
+
+    {% endfor %}
+
+  </ul>
+
+</aside>
