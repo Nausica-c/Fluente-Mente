@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<main class="article-page">
+
+  <!-- HERO -->
+  <header class="article-hero">
+
+    <div class="container">
+
+      <!-- Breadcrumbs -->
+      <nav class="breadcrumbs">
+
+        <a href="/">Home</a>
+
+        {% if page.cluster %}
+          <span>→</span>
+
+          <a href="/inglese/{{ page.cluster }}/">
+            {{ page.cluster | capitalize }}
+          </a>
+        {% endif %}
+
+        {% if page.category %}
+          <span>→</span>
+
+          <span>
+            {{ page.category | capitalize }}
+          </span>
+        {% endif %}
+
+      </nav>
+
+      <!-- Title -->
+      <h1>{{ page.title }}</h1>
+
+      <!-- Description -->
+      {% if page.description %}
+        <p class="article-description">
+          {{ page.description }}
+        </p>
+      {% endif %}
+
+    </div>
+
+  </header>
+
+  <!-- ARTICLE CONTENT -->
+  <section class="article-content">
+
+    <div class="container">
+
+      {{ content }}
+
+    </div>
+
+  </section>
+
+  <!-- CTA -->
+  <section class="article-cta">
+
+    <div class="container">
+
+      {% if page.cta_level == "soft" %}
+        {% include article/cta-soft.html %}
+      {% endif %}
+
+      {% if page.cta_level == "mid" %}
+        {% include article/cta-mid.html %}
+      {% endif %}
+
+      {% if page.cta_level == "hard" %}
+        {% include article/cta-hard.html %}
+      {% endif %}
+
+    </div>
+
+  </section>
+
+</main>
