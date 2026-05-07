@@ -1,0 +1,52 @@
+{% assign clusters = site.data.clusters.clusters %}
+{% assign current_cluster = page.cluster %}
+
+{% assign cluster_data = clusters[current_cluster] %}
+
+{% if cluster_data %}
+
+  <!-- PILLAR HEADER -->
+  <header class="cluster-hero">
+
+    <h1>{{ cluster_data.icon }} {{ cluster_data.title }}</h1>
+
+    {% if page.description %}
+      <p>{{ page.description }}</p>
+    {% endif %}
+
+  </header>
+
+  <!-- AUTO SECTIONS -->
+  <div class="cluster-sections">
+
+    {% assign cluster_file = site.data[current_cluster] %}
+
+    {% for section_key in cluster_file.sections %}
+
+      {% assign section = cluster_file.sections[section_key] %}
+
+      <section class="cluster-section">
+
+        <h2>{{ section.title }}</h2>
+
+        <ul>
+
+          {% for article in section.articles %}
+
+            <li>
+              <a href="{{ article.url }}">
+                {{ article.title }}
+              </a>
+            </li>
+
+          {% endfor %}
+
+        </ul>
+
+      </section>
+
+    {% endfor %}
+
+  </div>
+
+{% endif %}
