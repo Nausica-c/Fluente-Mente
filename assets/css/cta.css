@@ -1,0 +1,54 @@
+/* =========================
+   CTA SYSTEM
+   ========================= */
+
+.cta-box {
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px 0;
+  border-left: 4px solid #00ffcc;
+  background: #f5f5f5;
+}
+
+.cta-box h2 {
+  margin-bottom: 10px;
+}
+
+.cta-box p {
+  margin-bottom: 10px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background: #111;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.cta-button:hover {
+  opacity: 0.8;
+}
+
+/* CTA VARIANTS */
+
+.cta-soft {
+  border-left-color: #00bcd4;
+}
+
+.cta-mid {
+  border-left-color: #ff9800;
+}
+
+.cta-hard {
+  border-left-color: #f44336;
+}
+
+.cta-button-primary {
+  background: #00ffcc;
+  color: #111;
+  font-weight: bold;
+}
