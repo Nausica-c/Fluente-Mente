@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+
+  "headline": "{{ page.title | escape }}",
+
+  "description": "{{ page.description | escape }}",
+
+  "author": {
+    "@type": "Organization",
+    "name": "FluenteMente"
+  },
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "FluenteMente"
+  },
+
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+
+  "url": "{{ site.url }}{{ page.url }}",
+
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+}
+</script>
