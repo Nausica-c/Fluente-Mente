@@ -1,0 +1,71 @@
+rules:
+
+  # =========================
+  # 🧠 ANXIOUS USER (blocco)
+  # =========================
+  anxious:
+
+    mindset:
+      low: "cta-soft"
+      mid: "cta-mid"
+      high: "cta-mid"
+
+    speaking:
+      low: "cta-soft"
+      mid: "cta-mid"
+      high: "cta-hard"
+
+  # =========================
+  # ✈️ TRAVEL USER
+  # =========================
+  traveler:
+
+    viaggio:
+      low: "cta-mid"
+      mid: "cta-mid"
+      high: "cta-hard"
+
+    speaking:
+      low: "cta-soft"
+      mid: "cta-mid"
+      high: "cta-hard"
+
+  # =========================
+  # 💼 BUSINESS USER
+  # =========================
+  professional:
+
+    business:
+      low: "cta-mid"
+      mid: "cta-hard"
+      high: "cta-hard"
+
+  # =========================
+  # 🟢 BEGINNER
+  # =========================
+  beginner-user:
+
+    beginner:
+      low: "cta-soft"
+      mid: "cta-mid"
+      high: "cta-mid"
+
+    grammatica:
+      low: "cta-soft"
+      mid: "cta-mid"
+      high: "cta-mid"
+
+  # =========================
+  # 📌 PINTEREST TRAFFIC
+  # =========================
+  pinterest:
+
+    mindset:
+      low: "cta-soft"
+      mid: "cta-mid"
+      high: "cta-mid"
+
+    viaggio:
+      low: "cta-mid"
+      mid: "cta-hard"
+      high: "cta-hard"
