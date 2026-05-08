@@ -83,7 +83,6 @@
     engagement_score: "8.8"
 ---
 
-# Il metodo dei 15 minuti al giorno per iniziare a parlare inglese davvero
 
 Ti è mai capitato di guardare l’orologio a fine giornata e pensare: *“Anche oggi non ho aperto il libro di inglese”*? 
 
