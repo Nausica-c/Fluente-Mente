@@ -6,30 +6,68 @@ layout: default
 
 <article class="article-ai">
 
-  <header>
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="article-header">
 
     <h1>{{ page.title }}</h1>
 
-    <p>{{ page.description }}</p>
+    {% if page.description %}
+      <p class="article-description">{{ page.description }}</p>
+    {% endif %}
 
   </header>
 
+  <!-- =========================
+       ENGINE LOAD
+  ========================== -->
   {% assign engine = site.data.content-engine.articles
-      | where: "slug", page.slug
-      | first %}
+    | where: "slug", page.slug
+    | first %}
 
-  {% for section in engine.sections %}
+  <!-- =========================
+       SAFETY CHECK
+  ========================== -->
+  {% if engine == nil %}
 
-    {% include article/sections/{{ section }}.html %}
+    <section class="article-error">
+      <p>⚠️ Engine non trovato per questo articolo (slug: {{ page.slug }})</p>
+    </section>
 
-  {% endfor %}
+  {% else %}
 
-  {% include graph/user-routing.html %}
+    <!-- =========================
+         CONTENT SECTIONS
+    ========================== -->
+    {% if engine.sections %}
 
-  {% include graph/weighted-links.html %}
+      {% for section in engine.sections %}
 
-  {% include article/related-auto.html %}
+        {% include article/sections/{{ section }}.html %}
 
-  {% include article/cta-{{ engine.cta }}.html %}
+      {% endfor %}
+
+    {% endif %}
+
+    <!-- =========================
+         GRAPH / INTERNAL LINKING
+    ========================== -->
+    {% include graph/user-routing.html %}
+    {% include graph/weighted-links.html %}
+    {% include article/related-auto.html %}
+
+    <!-- =========================
+         CTA ENGINE (SAFE)
+    ========================== -->
+    {% assign cta_type = engine.cta | default: "soft" %}
+
+    {% capture cta_file %}
+      article/cta-{{ cta_type }}.html
+    {% endcapture %}
+
+    {% include {{ cta_file | strip }} %}
+
+  {% endif %}
 
 </article>
