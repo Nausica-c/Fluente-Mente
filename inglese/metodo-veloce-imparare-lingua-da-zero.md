@@ -1,3 +1,4 @@
+---
 article:
   meta:
     layout: "post"
