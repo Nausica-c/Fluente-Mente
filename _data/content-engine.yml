@@ -1,10 +1,7 @@
 articles:
-
   - slug: "paura-parlare-inglese"
-
     title: "Come superare la paura di parlare inglese"
-
-    cluster: "mindset"
+    cluster: mindset
 
     intent:
       - emotional
