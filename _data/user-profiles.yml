@@ -1,0 +1,51 @@
+users:
+
+  anonymous_default:
+
+    cluster_current: "beginner"
+
+    user_state: "beginner-user"
+
+    reading_history:
+      - "paura-parlare-inglese"
+      - "inglese-base-frasi"
+
+    engagement_level: low
+
+
+  traveler_intent:
+
+    cluster_current: "viaggio"
+
+    user_state: "traveler"
+
+    reading_history:
+      - "frasi-aeroporto-inglese"
+      - "check-in-hotel-inglese"
+
+    engagement_level: medium
+
+
+  anxious_beginner:
+
+    cluster_current: "mindset"
+
+    user_state: "anxious"
+
+    reading_history:
+      - "paura-parlare-inglese"
+
+    engagement_level: low
+
+
+  business_learner:
+
+    cluster_current: "business"
+
+    user_state: "professional"
+
+    reading_history:
+      - "meeting-english"
+      - "email-english"
+
+    engagement_level: high
