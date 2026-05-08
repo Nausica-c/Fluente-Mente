@@ -4,7 +4,7 @@ article:
     layout: "post"
     title: "Il metodo dei 15 minuti al giorno per iniziare a parlare inglese davvero"
     slug: "metodo-15-minuti-inglese"
-    permalink: "/inglese/metodo-15-minuti-inglese"
+    permalink: "/inglese/metodo/metodo-15-minuti-inglese"
     language: "it"
     target_language: "en"
     cluster: "metodo"
