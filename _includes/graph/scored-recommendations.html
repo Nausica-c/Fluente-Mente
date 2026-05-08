@@ -1,0 +1,32 @@
+{% assign scores = site.data.content-scoring.articles %}
+
+<div class="scored-grid">
+
+  {% assign posts = site.posts | sort: "date" | reverse %}
+
+  {% for post in posts limit:6 %}
+
+    {% assign slug = post.slug %}
+    {% assign score = scores[slug] %}
+
+    {% if score.conversion >= 8 %}
+
+      <a href="{{ post.url }}" class="score-card high-conversion">
+
+        <h3>{{ post.title }}</h3>
+
+        <div class="meta">
+
+          🔥 SEO {{ score.seo }}/10  
+          💰 Conv {{ score.conversion }}/10  
+          📌 Pin {{ score.pinterest }}/10
+
+        </div>
+
+      </a>
+
+    {% endif %}
+
+  {% endfor %}
+
+</div>
