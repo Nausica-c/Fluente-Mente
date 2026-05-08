@@ -1,0 +1,19 @@
+{% assign engine = site.data.content-engine.articles
+  | where: "slug", page.slug
+  | first %}
+
+{% assign state = page.user_state[0] %}
+{% assign cluster = page.cluster %}
+{% assign score = engine.scores.conversion %}
+
+{% assign rules = site.data.cta-intelligence.rules[state][cluster] %}
+
+{% if score >= 9 %}
+  {% assign cta = rules.high %}
+{% elsif score >= 6 %}
+  {% assign cta = rules.mid %}
+{% else %}
+  {% assign cta = rules.low %}
+{% endif %}
+
+{% include article/{{ cta }}.html %}
