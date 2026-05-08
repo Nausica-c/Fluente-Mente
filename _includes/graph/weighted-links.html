@@ -1,0 +1,27 @@
+{% assign current = page.cluster %}
+{% assign weights = site.data.link-weights[current] %}
+
+<div class="weighted-links">
+
+  <h3>🎯 Continua il percorso</h3>
+
+  {% assign sorted = weights | sort %}
+
+  {% for item in sorted reversed %}
+
+    {% assign cluster_name = item[0] %}
+    {% assign data = item[1] %}
+
+    {% if cluster_name != "babbel" %}
+
+      {% assign cluster = site.data.clusters.clusters[cluster_name] %}
+
+      <a href="{{ cluster.url }}" class="weight-{{ data.weight }}">
+        {{ cluster.icon }} {{ cluster.title }}
+      </a>
+
+    {% endif %}
+
+  {% endfor %}
+
+</div>
