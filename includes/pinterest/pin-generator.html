@@ -1,0 +1,17 @@
+{% assign pin = site.data.pinterest-engine.pins[page.slug] %}
+
+<div class="pin-hooks">
+
+  <h3>📌 Pinterest Hooks</h3>
+
+  {% for hook in pin.hooks %}
+
+    <div class="pin-hook">
+
+      {{ hook }}
+
+    </div>
+
+  {% endfor %}
+
+</div>
