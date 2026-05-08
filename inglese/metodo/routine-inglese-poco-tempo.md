@@ -4,7 +4,7 @@ article:
     layout: "post"
     title: "Come creare una routine inglese che funziona davvero anche con poco tempo"
     slug: "routine-inglese-poco-tempo"
-    permalink: "/inglese/routine-inglese-poco-tempo"
+    permalink: "/inglese/metodo/routine-inglese-poco-tempo"
     language: "it"
     target_language: "en"
     cluster: "metodo"
