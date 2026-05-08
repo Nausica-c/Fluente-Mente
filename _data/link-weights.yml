@@ -1,0 +1,113 @@
+mindset:
+
+  metodo:
+    weight: 10
+    reason: "utente pronto per metodo"
+
+  speaking:
+    weight: 9
+    reason: "superamento blocco"
+
+  beginner:
+    weight: 7
+    reason: "rinforzo basi"
+
+  errori:
+    weight: 6
+    reason: "consapevolezza"
+
+metodo:
+
+  speaking:
+    weight: 10
+    reason: "passaggio output"
+
+  grammatica:
+    weight: 8
+    reason: "supporto strutture"
+
+  viaggio:
+    weight: 9
+    reason: "applicazione reale"
+
+speaking:
+
+  viaggio:
+    weight: 10
+    reason: "uso reale immediato"
+
+  business:
+    weight: 8
+    reason: "progressione"
+
+  grammatica:
+    weight: 5
+    reason: "supporto linguistico"
+
+viaggio:
+
+  business:
+    weight: 9
+    reason: "evoluzione pratica"
+
+  babbel:
+    weight: 10
+    reason: "conversione"
+
+beginner:
+
+  mindset:
+    weight: 8
+    reason: "blocchi iniziali"
+
+  vocabolario:
+    weight: 9
+    reason: "base lessicale"
+
+errori:
+
+  grammatica:
+    weight: 9
+    reason: "correzione"
+
+  mindset:
+    weight: 7
+    reason: "frustrazione"
+
+vocabolario:
+
+  speaking:
+    weight: 10
+    reason: "uso attivo"
+
+  viaggio:
+    weight: 8
+    reason: "contesto reale"
+
+grammatica:
+
+  speaking:
+    weight: 10
+    reason: "produzione orale"
+
+  viaggio:
+    weight: 8
+    reason: "applicazione"
+
+business:
+
+  babbel:
+    weight: 10
+    reason: "conversione premium"
+
+lifelong-learner:
+
+  business:
+    weight: 7
+    reason: "crescita personale"
+
+curiosita:
+
+  vocabolario:
+    weight: 8
+    reason: "espansione lessicale"
