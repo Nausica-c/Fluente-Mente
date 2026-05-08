@@ -1,6 +1,4 @@
 ---
-article:
-  meta:
     layout: "post"
     title: "Il metodo dei 15 minuti al giorno per iniziare a parlare inglese davvero"
     slug: "metodo-15-minuti-inglese"
