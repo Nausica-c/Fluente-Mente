@@ -1,0 +1,33 @@
+paths:
+
+  beginner_flow:
+
+    start: beginner
+
+    flow:
+      - mindset
+      - metodo
+      - speaking
+      - viaggio
+      - babbel
+
+
+  traveler_flow:
+
+    start: viaggio
+
+    flow:
+      - speaking
+      - business
+      - babbel
+
+
+  anxious_flow:
+
+    start: mindset
+
+    flow:
+      - beginner
+      - speaking
+      - viaggio
+      - babbel
