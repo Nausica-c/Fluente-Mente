@@ -1,0 +1,33 @@
+{% assign user = site.data.user-profiles.users.anonymous_default %}
+
+{% assign cluster = page.cluster %}
+{% assign state = page.user_state[0] %}
+{% assign score = engine.scores.conversion %}
+
+{% assign engagement = user.engagement_level %}
+
+{% comment %}
+1. CTA LOGIC
+{% endcomment %}
+
+{% assign cta = "cta-soft" %}
+
+{% if engagement == "high" and score > 8 %}
+  {% assign cta = "cta-hard" %}
+{% elsif engagement == "medium" or score > 6 %}
+  {% assign cta = "cta-mid" %}
+{% endif %}
+
+{% comment %}
+2. NAVIGATION LOGIC
+{% endcomment %}
+
+{% if engagement == "low" %}
+  {% assign related_limit = 2 %}
+{% elsif engagement == "medium" %}
+  {% assign related_limit = 4 %}
+{% else %}
+  {% assign related_limit = 6 %}
+{% endif %}
+
+{% include article/{{ cta }}.html %}
