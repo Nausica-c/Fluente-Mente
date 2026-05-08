@@ -4,7 +4,7 @@ article:
     layout: "post"
     title: "Il metodo dei mini obiettivi per restare costante con l’inglese"
     slug: "mini-obiettivi-inglese"
-    permalink: "/inglese/mini-obiettivi-inglese"
+    permalink: "/inglese/metodo/mini-obiettivi-inglese"
     language: "it"
     target_language: "en"
     cluster: "metodo"
