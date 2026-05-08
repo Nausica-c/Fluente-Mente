@@ -1,0 +1,28 @@
+{% assign states = page.user_state %}
+
+<div class="user-routing">
+
+{% for state in states %}
+
+  {% assign state_data = site.data.user-states.states[state] %}
+
+  <h3>{{ state_data.title }}</h3>
+
+  <div class="routing-row">
+
+    {% for cluster_name in state_data.clusters %}
+
+      {% assign cluster = site.data.clusters.clusters[cluster_name] %}
+
+      <a href="{{ cluster.url }}" class="route-card">
+        <span>{{ cluster.icon }}</span>
+        <strong>{{ cluster.title }}</strong>
+      </a>
+
+    {% endfor %}
+
+  </div>
+
+{% endfor %}
+
+</div>
