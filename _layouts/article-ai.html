@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% include seo/auto-seo.html %}
+
+<article class="article-ai">
+
+  <header>
+
+    <h1>{{ page.title }}</h1>
+
+    <p>{{ page.description }}</p>
+
+  </header>
+
+  {% assign engine = site.data.content-engine.articles
+      | where: "slug", page.slug
+      | first %}
+
+  {% for section in engine.sections %}
+
+    {% include article/sections/{{ section }}.html %}
+
+  {% endfor %}
+
+  {% include graph/user-routing.html %}
+
+  {% include graph/weighted-links.html %}
+
+  {% include article/related-auto.html %}
+
+  {% include article/cta-{{ engine.cta }}.html %}
+
+</article>
