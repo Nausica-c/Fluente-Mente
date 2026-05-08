@@ -1,0 +1,28 @@
+articles:
+
+  - slug: "paura-parlare-inglese"
+
+    title: "Come superare la paura di parlare inglese"
+
+    cluster: "mindset"
+
+    intent:
+      - emotional
+      - speaking
+
+    user_state:
+      - anxious
+
+    scores:
+      seo: 9
+      pinterest: 10
+      conversion: 9
+
+    sections:
+      - problema
+      - errore
+      - soluzione
+      - esercizio
+      - next-step
+
+    cta: hard
