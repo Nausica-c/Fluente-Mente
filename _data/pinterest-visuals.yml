@@ -1,0 +1,21 @@
+visuals:
+
+  mindset:
+    background: "dark"
+    typography: "bold"
+    emotion: "intense"
+
+  viaggio:
+    background: "travel"
+    typography: "clean"
+    emotion: "freedom"
+
+  business:
+    background: "minimal"
+    typography: "professional"
+    emotion: "authority"
+
+  beginner:
+    background: "simple"
+    typography: "friendly"
+    emotion: "safe"
