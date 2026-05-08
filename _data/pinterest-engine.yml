@@ -1,0 +1,27 @@
+pins:
+
+  paura-parlare-inglese:
+
+    hooks:
+      - "Perché ti blocchi quando parli inglese"
+      - "Il vero motivo per cui non riesci a parlare"
+      - "Non è la grammatica il problema"
+
+    emotions:
+      - ansia
+      - frustrazione
+      - vergogna
+
+    styles:
+      - dark
+      - minimal
+      - emotional
+
+    overlays:
+      - "Ti blocchi anche tu?"
+      - "La verità che nessuno dice"
+      - "Il problema non è l’inglese"
+
+    destination:
+      cluster: mindset
+      article: paura-parlare-inglese
