@@ -3,6 +3,10 @@
    SEO + UX + CONVERSION OPTIMIZED
    ========================= */
 
+/* =========================
+   VARIABLES
+   ========================= */
+
 :root {
   --primary: #ff7a00;
   --primary-dark: #e86b00;
@@ -48,7 +52,7 @@ body {
 }
 
 /* =========================
-   HEADER (ENHANCED UX)
+   HEADER (CLEAN + STABLE)
    ========================= */
 
 .site-header {
@@ -101,45 +105,7 @@ body {
 }
 
 /* =========================
-   HAMBURGER MENU
-   ========================= */
-
-.menu-toggle {
-  display: none;
-  font-size: 26px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* =========================
-   MOBILE NAV
-   ========================= */
-
-@media (max-width: 768px) {
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .main-nav {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background: white;
-    border: 1px solid var(--border);
-    padding: 15px;
-    border-radius: var(--radius);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  }
-
-  .main-nav.active {
-    display: flex;
-  }
-   /* =========================
-   MENU TOGGLE (NO JS)
+   HAMBURGER (CSS ONLY)
    ========================= */
 
 .menu-toggle {
@@ -153,7 +119,10 @@ body {
   user-select: none;
 }
 
-/* MOBILE */
+/* =========================
+   MOBILE NAV (NO JS)
+   ========================= */
+
 @media (max-width: 768px) {
 
   .menu-icon {
@@ -171,14 +140,13 @@ body {
     padding: 15px;
     border-radius: var(--radius);
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    z-index: 999;
   }
 
-  /* MAGIC CSS TOGGLE */
-  .menu-toggle:checked + .menu-icon + .main-nav {
+  /* TOGGLE MENU */
+  .menu-toggle:checked ~ .main-nav {
     display: flex;
   }
-
-}
 
 }
 
@@ -354,7 +322,7 @@ body {
 }
 
 /* =========================
-   FOOTER (UX + SEO BOOST)
+   FOOTER
    ========================= */
 
 .footer-inner {
@@ -364,7 +332,6 @@ body {
   text-align: left;
 }
 
-/* BRAND SECTION */
 .footer-brand h3 {
   color: var(--text);
   margin-bottom: 10px;
@@ -376,7 +343,6 @@ body {
   line-height: 1.6;
 }
 
-/* NAV LISTS */
 .footer-nav ul,
 .footer-clusters ul {
   list-style: none;
@@ -402,7 +368,6 @@ body {
   color: var(--primary);
 }
 
-/* CTA AREA */
 .footer-cta h4 {
   margin-bottom: 10px;
 }
@@ -413,7 +378,6 @@ body {
   margin-bottom: 12px;
 }
 
-/* FOOTER BOTTOM */
 .footer-bottom {
   margin-top: 30px;
   padding-top: 20px;
@@ -428,27 +392,21 @@ body {
    ========================= */
 
 @media (max-width: 768px) {
-
   .post-hero h1 {
     font-size: 26px;
-  }
-
-  .main-nav {
-    display: none;
   }
 
   .container {
     padding: 16px;
   }
-
 }
 
 /* =========================
-   ACCESSIBILITY + UX BOOST
+   UX BOOST
    ========================= */
 
 .related-card,
 .cta-primary,
 .main-nav a {
   will-change: transform;
-  }
+   }
