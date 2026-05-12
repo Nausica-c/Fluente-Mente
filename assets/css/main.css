@@ -423,7 +423,44 @@ li {
 .cluster-card.lifelong {
   background: #f5f3ff;
 }
+/* =========================
+   HOME CARDS
+   ========================= */
 
+.paths-grid,
+.problem-grid,
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.path-card,
+.problem-card,
+.benefit-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: all 0.2s ease;
+}
+
+.path-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.path-card strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.path-card span {
+  color: var(--muted);
+  font-size: 14px;
+}
 /* =========================
    POST
    ========================= */
