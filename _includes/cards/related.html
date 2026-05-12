@@ -1,0 +1,31 @@
+<section class="related-posts">
+
+  <h3>Continua a imparare</h3>
+
+  <div class="related-grid">
+
+    {% assign current_cluster = page.cluster %}
+
+    {% for post in site.posts %}
+
+      {% if post.cluster == current_cluster and post.url != page.url %}
+
+        <a href="{{ post.url }}" class="related-card">
+
+          {% if post.title %}
+            <h4>{{ post.title }}</h4>
+          {% endif %}
+
+          {% if post.description %}
+            <p>{{ post.description }}</p>
+          {% endif %}
+
+        </a>
+
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+
+</section>
