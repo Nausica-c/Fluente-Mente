@@ -1,0 +1,12 @@
+{% assign cluster = page.cluster %}
+{% assign cta = site.data.cta[cluster] %}
+{% assign affiliate = site.data.affiliates.babbel %}
+
+<a href="{{ affiliate.url }}"
+   class="cta-{{ cta.intensity | default: 'medium' }}"
+   target="_blank"
+   rel="sponsored noopener">
+
+  {{ cta.text | default: affiliate.label }}
+
+</a>
