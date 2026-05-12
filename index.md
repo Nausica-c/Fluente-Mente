@@ -30,27 +30,82 @@ Solo pratica reale, piccoli passi e abitudine quotidiana.
 ---
 
 ## Scegli il tuo percorso
+<section class="home-paths">
 
-Ogni percorso è pensato per un obiettivo diverso. Parti da quello giusto per te.
+  <h2>Scegli il tuo percorso</h2>
 
-### Percorsi principali
+  <p>
+    Ogni percorso è pensato per un obiettivo diverso.
+    Parti da quello giusto per te.
+  </p>
 
-- [Metodo](/inglese/metodo/)
-- [Beginner](/inglese/beginner/)
-- [Speaking](/inglese/speaking/)
-- [Mindset](/inglese/mindset/)
-- [Business](/inglese/business/)
+  <!-- PERCORSI PRINCIPALI -->
+  <div class="paths-group">
 
-### Supporto e crescita
+    <h3>Percorsi principali</h3>
 
-- [Viaggio](/inglese/viaggio/)
-- [Grammatica pratica](/inglese/grammatica-pratica/)
-- [Vocabolario pratico](/inglese/vocabolario-pratico/)
-- [Errori](/inglese/errori/)
-- [Curiosità](/inglese/curiosita/)
-- [Lifelong learner](/inglese/lifelong-learner/)
+    <div class="paths-grid">
 
----
+      <a href="/inglese/metodo/" class="path-card">
+        Metodo
+      </a>
+
+      <a href="/inglese/beginner/" class="path-card">
+        Beginner
+      </a>
+
+      <a href="/inglese/speaking/" class="path-card">
+        Speaking
+      </a>
+
+      <a href="/inglese/mindset/" class="path-card">
+        Mindset
+      </a>
+
+      <a href="/inglese/business/" class="path-card">
+        Business
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- SUPPORTO -->
+  <div class="paths-group">
+
+    <h3>Supporto e crescita</h3>
+
+    <div class="paths-grid">
+
+      <a href="/inglese/viaggio/" class="path-card">
+        Viaggio
+      </a>
+
+      <a href="/inglese/grammatica-pratica/" class="path-card">
+        Grammatica pratica
+      </a>
+
+      <a href="/inglese/vocabolario-pratico/" class="path-card">
+        Vocabolario pratico
+      </a>
+
+      <a href="/inglese/errori/" class="path-card">
+        Errori
+      </a>
+
+      <a href="/inglese/curiosita/" class="path-card">
+        Curiosità
+      </a>
+
+      <a href="/inglese/lifelong-learner/" class="path-card">
+        Lifelong learner
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
 
 ## Cosa cambia davvero
 
