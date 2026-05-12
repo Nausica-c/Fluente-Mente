@@ -1,197 +1,217 @@
 ---
 layout: default
-title: "FluenteMente"
-description: "Impara inglese in modo naturale, anche se hai poco tempo. Speaking reale, metodo pratico e routine sostenibili."
+title: "Fluente-Mente | Impara inglese in modo semplice e pratico"
+description: "Parla inglese anche se hai poco tempo ogni giorno. Metodo pratico, speaking reale e abitudini sostenibili."
 ---
 
-<section class="hero-home">
+<section class="hero">
 
-  <div class="hero-badge">
+  <p class="hero-badge">
     Inglese pratico per adulti impegnati
-  </div>
+  </p>
 
   <h1>
     Parla inglese anche se hai poco tempo ogni giorno
   </h1>
 
-  <p>
-    FluenteMente ti aiuta a trasformare l’inglese in
-    un’abitudine quotidiana sostenibile.
-    Niente studio infinito.
-    Solo pratica reale, speaking e piccoli progressi costanti.
+  <p class="hero-subtitle">
+    Un metodo semplice e pratico per imparare inglese senza stress,
+    senza libri infiniti e senza teoria inutile.
   </p>
 
-  <div class="hero-cta">
+  <div class="hero-actions">
 
-    <a href="/inglese/metodo/" class="btn-primary">
+    <a href="/inglese/metodo/" class="cta-primary">
       Inizia dal metodo
     </a>
 
-    <a href="/prova-babbel/" class="btn-secondary">
-      Prova Babbel
+    <a href="/inglese/beginner/" class="cta-secondary">
+      Sono principiante
     </a>
 
   </div>
 
 </section>
 
+<!-- =========================
+     PROBLEMA
+     ========================= -->
+
 <section class="home-problem">
 
-  <h2>Ti riconosci in una di queste situazioni?</h2>
+  <h2>Ti suona familiare?</h2>
 
   <div class="problem-grid">
 
     <div class="problem-card">
-      <strong>Capisci ma non parli</strong>
-      <span>
-        Sai leggere o ascoltare inglese,
-        ma ti blocchi quando devi parlare.
-      </span>
+      Capisci l’inglese ma non riesci a parlarlo
     </div>
 
     <div class="problem-card">
-      <strong>Non hai tempo</strong>
-      <span>
-        Tra lavoro, impegni e stanchezza,
-        studiare sembra impossibile.
-      </span>
+      Hai studiato per anni ma ti blocchi quando devi parlare
     </div>
 
     <div class="problem-card">
-      <strong>Hai già mollato</strong>
-      <span>
-        Hai iniziato tante volte,
-        ma senza un metodo sostenibile.
-      </span>
+      Non hai tempo per studiare in modo tradizionale
     </div>
 
   </div>
 
 </section>
 
-<section class="home-clusters">
+<!-- =========================
+     METODO
+     ========================= -->
+
+<section class="home-method">
+
+  <h2>
+    Un metodo diverso da tutto quello che hai provato
+  </h2>
+
+  <p>
+    Niente grammatica inutile.
+    Solo pratica reale, piccoli passi e abitudine quotidiana.
+  </p>
+
+</section>
+
+<!-- =========================
+     PERCORSI
+     ========================= -->
+
+<section class="home-paths">
 
   <h2>Scegli il tuo percorso</h2>
 
-  <p class="section-intro">
+  <p>
     Ogni percorso è pensato per un obiettivo diverso.
     Parti da quello giusto per te.
   </p>
 
-  <h3>Percorsi principali</h3>
+  <!-- PRINCIPALI -->
 
-  <div class="cluster-grid">
+  <div class="paths-group">
 
-    <a href="/inglese/metodo/" class="cluster-card metodo">
-      <strong>Metodo</strong>
-      <span>Routine, abitudini e strategia</span>
-    </a>
+    <h3>Percorsi principali</h3>
 
-    <a href="/inglese/beginner/" class="cluster-card beginner">
-      <strong>Beginner</strong>
-      <span>Per chi parte da zero</span>
-    </a>
+    <div class="paths-grid">
 
-    <a href="/inglese/speaking/" class="cluster-card speaking">
-      <strong>Speaking</strong>
-      <span>Parlare senza bloccarsi</span>
-    </a>
+      <a href="/inglese/metodo/" class="path-card">
+        <strong>Metodo</strong>
+        <span>Costruisci una routine efficace</span>
+      </a>
 
-    <a href="/inglese/mindset/" class="cluster-card mindset">
-      <strong>Mindset</strong>
-      <span>Eliminare ansia e frustrazione</span>
-    </a>
+      <a href="/inglese/beginner/" class="path-card">
+        <strong>Beginner</strong>
+        <span>Inizia da zero senza stress</span>
+      </a>
 
-    <a href="/inglese/business/" class="cluster-card business">
-      <strong>Business</strong>
-      <span>Inglese per lavoro e carriera</span>
-    </a>
+      <a href="/inglese/speaking/" class="path-card">
+        <strong>Speaking</strong>
+        <span>Sblocca conversazioni reali</span>
+      </a>
+
+      <a href="/inglese/mindset/" class="path-card">
+        <strong>Mindset</strong>
+        <span>Supera paura e blocchi</span>
+      </a>
+
+      <a href="/inglese/business/" class="path-card">
+        <strong>Business</strong>
+        <span>Inglese pratico per il lavoro</span>
+      </a>
+
+    </div>
 
   </div>
 
-  <h3>Supporto e crescita</h3>
+  <!-- SUPPORTO -->
 
-  <div class="cluster-grid">
+  <div class="paths-group">
 
-    <a href="/inglese/viaggio/" class="cluster-card viaggio">
-      <strong>Viaggio</strong>
-      <span>Inglese utile in viaggio</span>
-    </a>
+    <h3>Supporto e crescita</h3>
 
-    <a href="/inglese/grammatica-pratica/" class="cluster-card grammatica">
-      <strong>Grammatica pratica</strong>
-      <span>Solo ciò che serve davvero</span>
-    </a>
+    <div class="paths-grid">
 
-    <a href="/inglese/vocabolario-pratico/" class="cluster-card vocabolario">
-      <strong>Vocabolario pratico</strong>
-      <span>Parole e frasi reali</span>
-    </a>
+      <a href="/inglese/viaggio/" class="path-card">
+        <strong>Viaggio</strong>
+        <span>Frasi utili per viaggiare</span>
+      </a>
 
-    <a href="/inglese/errori/" class="cluster-card errori">
-      <strong>Errori</strong>
-      <span>Gli sbagli più comuni</span>
-    </a>
+      <a href="/inglese/grammatica-pratica/" class="path-card">
+        <strong>Grammatica pratica</strong>
+        <span>Solo la grammatica che serve davvero</span>
+      </a>
 
-    <a href="/inglese/curiosita/" class="cluster-card curiosita">
-      <strong>Curiosità</strong>
-      <span>Espressioni e cultura inglese</span>
-    </a>
+      <a href="/inglese/vocabolario-pratico/" class="path-card">
+        <strong>Vocabolario pratico</strong>
+        <span>Parole ed espressioni reali</span>
+      </a>
 
-    <a href="/inglese/lifelong-learner/" class="cluster-card lifelong">
-      <strong>Lifelong learner</strong>
-      <span>Imparare inglese da adulti</span>
-    </a>
+      <a href="/inglese/errori/" class="path-card">
+        <strong>Errori</strong>
+        <span>Evita gli errori più comuni</span>
+      </a>
 
-  </div>
+      <a href="/inglese/curiosita/" class="path-card">
+        <strong>Curiosità</strong>
+        <span>Scopri l’inglese quotidiano</span>
+      </a>
 
-</section>
+      <a href="/inglese/lifelong-learner/" class="path-card">
+        <strong>Lifelong learner</strong>
+        <span>Imparare inglese da adulti</span>
+      </a>
 
-<section class="home-proof">
-
-  <h2>Imparare inglese non deve essere frustrante</h2>
-
-  <p class="section-intro">
-    Bastano piccoli passi costanti, un metodo sostenibile
-    e pratica reale ogni giorno.
-  </p>
-
-  <div class="proof-grid">
-
-    <div class="proof-card">
-      <strong>10 minuti</strong>
-      <span>di pratica quotidiana</span>
-    </div>
-
-    <div class="proof-card">
-      <strong>Routine reali</strong>
-      <span>pensate per adulti impegnati</span>
-    </div>
-
-    <div class="proof-card">
-      <strong>Speaking pratico</strong>
-      <span>non grammatica infinita</span>
     </div>
 
   </div>
 
 </section>
+
+<!-- =========================
+     BENEFICI
+     ========================= -->
+
+<section class="home-benefits">
+
+  <h2>Cosa cambia davvero</h2>
+
+  <div class="benefits-grid">
+
+    <div class="benefit-card">
+      🎙 Parli con più sicurezza
+    </div>
+
+    <div class="benefit-card">
+      🧠 Ti blocchi meno nelle conversazioni
+    </div>
+
+    <div class="benefit-card">
+      🌍 Capisci meglio film e situazioni reali
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================
+     CTA FINALE
+     ========================= -->
 
 <section class="home-final-cta">
 
-  <h2>Inizia oggi</h2>
+  <h2>
+    Inizia oggi con piccoli passi sostenibili
+  </h2>
 
   <p>
-    Non serve essere perfetti.
-    Serve solo iniziare con il metodo giusto.
+    Anche 15 minuti al giorno possono fare una grande differenza.
   </p>
 
-  <div class="hero-cta">
-
-    <a href="/inglese/metodo/" class="btn-primary">
-      Scopri il metodo
-    </a>
-
-  </div>
+  <a href="/inglese/metodo/" class="cta-primary">
+    Scopri il metodo
+  </a>
 
 </section>
