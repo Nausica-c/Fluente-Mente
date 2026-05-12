@@ -1,0 +1,42 @@
+global:
+  utm_source: "fluente-mente"
+  utm_medium: "organic"
+  utm_campaign: "english_learning"
+
+babbel:
+  base_url: "https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038224&clickref="
+  utm:
+    source: "fluente-mente"
+    medium: "cta"
+    campaign: "babbel_affiliate"
+    content: "cluster_based"
+
+cta_rules:
+  position_1: "after_intro"
+  position_2: "mid_content"
+  position_3: "end_of_article"
+
+pinterest:
+  utm_medium: "pinterest"
+  utm_campaign: "pin_traffic"
+  tracking_param: "pin_id"
+
+clusters:
+  speaking:
+    cta_strength: "high"
+    conversion_intent: "very_high"
+
+  beginner:
+    cta_strength: "medium"
+    conversion_intent: "high"
+
+  mindset:
+    cta_strength: "soft"
+    conversion_intent: "emotional"
+
+a_b_testing:
+  enabled: true
+  variants:
+    - "cta_soft"
+    - "cta_direct"
+    - "cta_emotional"
