@@ -4,7 +4,7 @@ layout: default
 
 <section class="cluster-page">
 
-  <!-- HERO -->
+  <!-- HERO SEO HUB -->
   <header class="cluster-hero">
 
     <h1>
@@ -12,14 +12,34 @@ layout: default
     </h1>
 
     {% if page.description %}
-      <p>
+      <p class="cluster-description">
         {{ page.description }}
       </p>
     {% endif %}
 
+    <a href="{{ site.data.affiliates.babbel.url }}"
+       class="cta-primary"
+       target="_blank"
+       rel="sponsored noopener nofollow">
+
+      Inizia con Babbel
+
+    </a>
+
   </header>
 
-  <!-- POSTS -->
+  <!-- INTRO SEO (IMPORTANTISSIMO PER GOOGLE) -->
+  <section class="cluster-intro">
+
+    <p>
+      Questa sezione raccoglie tutto ciò che ti serve per
+      <strong>{{ page.title }}</strong>.
+      Qui trovi guide, esempi pratici e strategie semplici per migliorare il tuo inglese passo dopo passo.
+    </p>
+
+  </section>
+
+  <!-- POSTS GRID -->
   <section class="cluster-posts">
 
     <div class="posts-grid">
@@ -33,8 +53,7 @@ layout: default
           <a href="{{ site.baseurl }}{{ post.url }}">
 
             {% if post.image %}
-              <img src="{{ post.image }}"
-                   alt="{{ post.title }}">
+              <img src="{{ post.image }}" alt="{{ post.title }}">
             {% endif %}
 
             <div class="post-card-content">
@@ -60,6 +79,52 @@ layout: default
         </article>
 
       {% endfor %}
+
+    </div>
+
+  </section>
+
+  <!-- SEO EXPLANATION SECTION -->
+  <section class="cluster-seo-text">
+
+    <h2>
+      Perché {{ page.title }} è importante
+    </h2>
+
+    <p>
+      Imparare inglese in modo efficace non significa studiare tutto,
+      ma seguire un percorso chiaro. Questo cluster ti aiuta a concentrarti
+      solo su ciò che serve davvero.
+    </p>
+
+    <p>
+      Ogni articolo è pensato per risolvere un problema specifico,
+      migliorare la tua sicurezza e portarti gradualmente verso la fluidità.
+    </p>
+
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cluster-cta">
+
+    <div class="cta-box">
+
+      <h3>
+        Vuoi accelerare i risultati?
+      </h3>
+
+      <p>
+        Metti in pratica il metodo ogni giorno con uno strumento guidato.
+      </p>
+
+      <a href="{{ site.data.affiliates.babbel.url }}"
+         class="cta-primary"
+         target="_blank"
+         rel="sponsored noopener nofollow">
+
+        Prova Babbel
+
+      </a>
 
     </div>
 
