@@ -1,0 +1,65 @@
+metodo:
+  title: "Trova il metodo giusto"
+  description: "Piccole lezioni quotidiane per imparare inglese con costanza."
+  button: "Prova Babbel"
+  intensity: "medium"
+
+mindset:
+  title: "Sblocca il tuo inglese"
+  description: "Supera paura e blocchi mentali con esercizi pratici."
+  button: "Inizia oggi"
+  intensity: "soft"
+
+speaking:
+  title: "Inizia a parlare davvero"
+  description: "Allenati con dialoghi e situazioni reali."
+  button: "Parla inglese con Babbel"
+  intensity: "high"
+
+beginner:
+  title: "Inizia da zero senza stress"
+  description: "Costruisci basi solide passo dopo passo."
+  button: "Comincia gratis"
+  intensity: "soft"
+
+viaggio:
+  title: "Inglese per viaggiare"
+  description: "Impara frasi utili per hotel, aeroporti e conversazioni."
+  button: "Impara le frasi essenziali"
+  intensity: "medium"
+
+business:
+  title: "Migliora il tuo inglese professionale"
+  description: "Preparati per email, riunioni e colloqui."
+  button: "Potenzia il tuo inglese"
+  intensity: "high"
+
+grammatica-pratica:
+  title: "Grammatica semplice e utile"
+  description: "Capisci le regole senza teoria complicata."
+  button: "Studia con semplicità"
+  intensity: "soft"
+
+vocabolario-pratico:
+  title: "Espandi il tuo vocabolario"
+  description: "Impara parole e frasi che userai davvero."
+  button: "Migliora il tuo inglese"
+  intensity: "medium"
+
+errori:
+  title: "Correggi gli errori più comuni"
+  description: "Evita sbagli che bloccano la tua comunicazione."
+  button: "Correggi il tuo inglese"
+  intensity: "high"
+
+curiosita:
+  title: "Scopri curiosità sull’inglese"
+  description: "Impara divertendoti con contenuti leggeri e utili."
+  button: "Scopri di più"
+  intensity: "soft"
+
+lifelong-learner:
+  title: "Fai dell’inglese una abitudine"
+  description: "Piccoli progressi quotidiani portano grandi risultati."
+  button: "Continua a imparare"
+  intensity: "medium"
