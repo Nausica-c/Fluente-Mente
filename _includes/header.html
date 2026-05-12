@@ -2,19 +2,15 @@
 
   <div class="container header-inner">
 
-    <!-- LOGO -->
     <a href="{{ site.baseurl }}/" class="logo">
       Fluente<span>-Mente</span>
     </a>
 
-    <!-- TOGGLE -->
+    <!-- HAMBURGER -->
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
 
-    <label for="menu-toggle" class="menu-icon">
-      ☰
-    </label>
-
-    <!-- NAV -->
+    <!-- NAV (UN SOLO NAV, NON DOPPIO) -->
     <nav class="main-nav">
 
       {% assign sorted_nav = site.navigation | sort: "weight" | reverse %}
@@ -29,7 +25,6 @@
 
     </nav>
 
-    <!-- CTA -->
     <div class="header-cta">
       <a href="{{ site.data.affiliates.babbel.url }}"
          class="cta-primary"
