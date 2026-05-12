@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  {% include seo/head.html %}
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+
+  <!-- Pinterest / Social optimization -->
+  {% include seo/social.html %}
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  {% include header.html %}
+
+  <!-- MAIN CONTENT -->
+  <main class="site-main">
+
+    <div class="container">
+
+      <!-- Breadcrumbs (opzionale globale) -->
+      {% include breadcrumbs/breadcrumbs.html %}
+
+      <!-- PAGE CONTENT -->
+      <article class="content">
+        {{ content }}
+      </article>
+
+    </div>
+
+  </main>
+
+  <!-- CTA FLOATING (opzionale globale) -->
+  {% include cta/floating-cta.html %}
+
+  <!-- FOOTER -->
+  {% include footer.html %}
+
+  <!-- SCRIPTS -->
+  <script src="/assets/js/main.js"></script>
+
+  <!-- Schema -->
+  {% include schema/site.html %}
+
+</body>
+</html>
