@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+{% assign cluster_key = page.cluster %}
+
+<section class="cluster-hero">
+
+  <h1>{{ site.data.clusters[cluster_key].label }}</h1>
+
+  <p>
+    {{ site.data.clusters[cluster_key].description }}
+  </p>
+
+</section>
+
+<!-- INTRO SEO SECTION -->
+<section class="cluster-intro">
+
+  <h2>Perché questo cluster è importante</h2>
+
+  <p>
+    Qui trovi tutti gli articoli su {{ site.data.clusters[cluster_key].label }}.
+    Questo percorso ti aiuta a migliorare in modo strutturato e pratico.
+  </p>
+
+</section>
+
+<!-- POSTS GRID -->
+<section class="cluster-posts">
+
+  <h2>Articoli su {{ site.data.clusters[cluster_key].label }}</h2>
+
+  <div class="grid">
+
+    {% for post in site.posts %}
+
+      {% if post.cluster == cluster_key %}
+
+        <a href="{{ post.url }}" class="cluster-post-card">
+
+          <h3>{{ post.title }}</h3>
+
+          {% if post.description %}
+            <p>{{ post.description | truncate: 120 }}</p>
+          {% endif %}
+
+        </a>
+
+      {% endif %}
+
+    {% endfor %}
+
+  </div>
+
+</section>
+
+<!-- CTA SECTION -->
+<section class="cluster-cta">
+
+  {% include cta/babbel-cta.html %}
+
+</section>
+
+<!-- RELATED / CROSS CLUSTER -->
+<section class="cluster-related">
+
+  <h2>Approfondisci altri temi</h2>
+
+  {% include cards/cluster-grid.html %}
+
+</section>
+
+<!-- SEO SCHEMA -->
+{% include schema/article.html %}
