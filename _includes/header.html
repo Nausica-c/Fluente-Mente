@@ -2,25 +2,40 @@
 
   <div class="container header-inner">
 
-    <!-- LOGO -->
+    <!-- =========================
+         LOGO
+         ========================= -->
+
     <a href="{{ site.baseurl }}/" class="logo">
       Fluente<span>-Mente</span>
     </a>
 
-    <!-- NAVIGATION -->
+    <!-- =========================
+         NAVIGATION (SEO WEIGHTED)
+         ========================= -->
+
     <nav class="main-nav">
 
-      {% for item in site.navigation %}
+      {% assign sorted_nav = site.navigation | sort: "weight" | reverse %}
 
-        <a href="{{ site.baseurl }}{{ item.url }}">
-          {{ item.title }}
-        </a>
+      {% for item in sorted_nav %}
+
+        {% if item.primary == true %}
+
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a>
+
+        {% endif %}
 
       {% endfor %}
 
     </nav>
 
-    <!-- CTA -->
+    <!-- =========================
+         CTA (CONVERSION FOCUS)
+         ========================= -->
+
     <div class="header-cta">
 
       <a href="{{ site.data.affiliates.babbel.url }}"
