@@ -1,0 +1,64 @@
+<footer class="site-footer">
+
+  <div class="container footer-inner">
+
+    <!-- BRAND -->
+    <div class="footer-brand">
+
+      <h3>Fluente-Mente</h3>
+
+      <p>
+        Impara inglese in modo semplice, pratico e sostenibile.
+      </p>
+
+    </div>
+
+    <!-- NAVIGATION -->
+    <div class="footer-nav">
+
+      <h4>Esplora</h4>
+
+      <ul>
+
+        {% for item in site.navigation %}
+
+          <li>
+            <a href="{{ site.baseurl }}{{ item.url }}">
+              {{ item.title }}
+            </a>
+          </li>
+
+        {% endfor %}
+
+      </ul>
+
+    </div>
+
+    <!-- AFFILIATE -->
+    <div class="footer-cta">
+
+      <h4>Inizia a imparare</h4>
+
+      <a href="{{ site.data.affiliates.babbel.url }}"
+         class="cta-primary"
+         target="_blank"
+         rel="sponsored noopener nofollow">
+
+        {{ site.data.affiliates.babbel.label }}
+
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="footer-bottom">
+
+    <p>
+      © {{ site.time | date: '%Y' }} Fluente-Mente
+    </p>
+
+  </div>
+
+</footer>
