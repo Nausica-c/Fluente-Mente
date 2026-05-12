@@ -1,32 +1,74 @@
+# =========================
+# PILLAR (SEO CORE)
+# =========================
+
 - title: "Metodo"
   url: "/inglese/metodo/"
-
-- title: "Mindset"
-  url: "/inglese/mindset/"
+  primary: true
+  weight: 100
 
 - title: "Speaking"
   url: "/inglese/speaking/"
+  primary: true
+  weight: 95
 
-- title: "Beginner"
-  url: "/inglese/beginner/"
-
-- title: "Viaggio"
-  url: "/inglese/viaggio/"
+# =========================
+# HIGH VALUE / CONVERSION CLUSTER
+# =========================
 
 - title: "Business"
   url: "/inglese/business/"
+  primary: true
+  weight: 92
 
-- title: "Grammatica pratica"
-  url: "/inglese/grammatica-pratica/"
+# =========================
+# ONBOARDING (TRAFFIC ENTRY)
+# =========================
 
-- title: "Vocabolario pratico"
-  url: "/inglese/vocabolario-pratico/"
+- title: "Beginner"
+  url: "/inglese/beginner/"
+  primary: true
+  weight: 90
+
+- title: "Mindset"
+  url: "/inglese/mindset/"
+  primary: false
+  weight: 80
+
+# =========================
+# SUPPORT SEO CLUSTERS
+# =========================
 
 - title: "Errori"
   url: "/inglese/errori/"
+  primary: false
+  weight: 70
+
+- title: "Grammatica pratica"
+  url: "/inglese/grammatica-pratica/"
+  primary: false
+  weight: 65
+
+- title: "Vocabolario pratico"
+  url: "/inglese/vocabolario-pratico/"
+  primary: false
+  weight: 65
+
+# =========================
+# LIFESTYLE / LONGTAIL
+# =========================
+
+- title: "Viaggio"
+  url: "/inglese/viaggio/"
+  primary: false
+  weight: 50
 
 - title: "Curiosità"
   url: "/inglese/curiosita/"
+  primary: false
+  weight: 40
 
 - title: "Lifelong learner"
   url: "/inglese/lifelong-learner/"
+  primary: false
+  weight: 35
