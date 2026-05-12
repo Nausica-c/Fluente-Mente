@@ -52,7 +52,7 @@ body {
 }
 
 /* =========================
-   HEADER (CLEAN + STABLE)
+   HEADER
    ========================= */
 
 .site-header {
@@ -84,7 +84,7 @@ body {
 }
 
 /* =========================
-   NAVIGATION (DESKTOP)
+   NAVIGATION DESKTOP
    ========================= */
 
 .main-nav {
@@ -102,52 +102,6 @@ body {
 
 .main-nav a:hover {
   color: var(--primary);
-}
-
-/* =========================
-   HAMBURGER (CSS ONLY)
-   ========================= */
-
-.menu-toggle {
-  display: none;
-}
-
-.menu-icon {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  user-select: none;
-}
-
-/* =========================
-   MOBILE NAV (NO JS)
-   ========================= */
-
-@media (max-width: 768px) {
-
-  .menu-icon {
-    display: block;
-  }
-
-  .main-nav {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background: white;
-    border: 1px solid var(--border);
-    padding: 15px;
-    border-radius: var(--radius);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    z-index: 999;
-  }
-
-  /* TOGGLE MENU */
-  .menu-toggle:checked ~ .main-nav {
-    display: flex;
-  }
-
 }
 
 /* =========================
@@ -171,6 +125,57 @@ body {
   background: var(--primary-dark);
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(255, 122, 0, 0.35);
+}
+
+/* =========================
+   HAMBURGER (CSS ONLY FIXED)
+   ========================= */
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* =========================
+   MOBILE NAVIGATION
+   ========================= */
+
+@media (max-width: 768px) {
+
+  .header-inner {
+    position: relative;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    border: 1px solid var(--border);
+    padding: 15px;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    z-index: 999;
+    min-width: 200px;
+  }
+
+  /* TOGGLE FUNCTION (CORE FIX) */
+  .menu-toggle:checked ~ .main-nav {
+    display: flex;
+  }
+
 }
 
 /* =========================
@@ -249,17 +254,9 @@ body {
 }
 
 /* CTA INTENSITY */
-.cta-soft {
-  background: #f0f9ff;
-}
-
-.cta-medium {
-  background: #fff7ed;
-}
-
-.cta-high {
-  background: #fff1f2;
-}
+.cta-soft { background: #f0f9ff; }
+.cta-medium { background: #fff7ed; }
+.cta-high { background: #fff1f2; }
 
 /* =========================
    RELATED POSTS
@@ -409,4 +406,4 @@ body {
 .cta-primary,
 .main-nav a {
   will-change: transform;
-   }
+}
