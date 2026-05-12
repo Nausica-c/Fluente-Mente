@@ -1,0 +1,54 @@
+metodo:
+  related: ["beginner", "mindset", "lifelong-learner"]
+  strength: "high"
+  intent_bridge: "foundation"
+
+beginner:
+  related: ["metodo", "grammatica-pratica", "vocabolario-pratico"]
+  strength: "high"
+  intent_bridge: "onboarding"
+
+mindset:
+  related: ["speaking", "lifelong-learner", "metodo"]
+  strength: "very_high"
+  intent_bridge: "psychological_block"
+
+speaking:
+  related: ["mindset", "errori", "viaggio"]
+  strength: "very_high"
+  intent_bridge: "fluency_activation"
+
+business:
+  related: ["speaking", "grammatica-pratica", "vocabolario-pratico"]
+  strength: "high"
+  intent_bridge: "professional_use"
+
+viaggio:
+  related: ["vocabolario-pratico", "speaking", "beginner"]
+  strength: "medium"
+  intent_bridge: "real_world_use"
+
+grammatica-pratica:
+  related: ["errori", "beginner", "metodo"]
+  strength: "medium"
+  intent_bridge: "accuracy"
+
+vocabolario-pratico:
+  related: ["viaggio", "business", "speaking"]
+  strength: "high"
+  intent_bridge: "expression"
+
+errori:
+  related: ["speaking", "grammatica-pratica", "mindset"]
+  strength: "high"
+  intent_bridge: "correction"
+
+curiosita:
+  related: ["metodo", "beginner", "lifelong-learner"]
+  strength: "low"
+  intent_bridge: "engagement"
+
+lifelong-learner:
+  related: ["mindset", "metodo", "beginner"]
+  strength: "very_high"
+  intent_bridge: "identity_shift"
