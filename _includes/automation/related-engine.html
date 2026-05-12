@@ -1,0 +1,22 @@
+{% assign cluster = page.cluster %}
+{% assign related = site.data.internal-links[cluster].related %}
+
+<div class="related-auto">
+
+  <h3>Continua a imparare</h3>
+
+  {% for r in related %}
+
+    {% for post in site.posts %}
+      {% if post.cluster == r %}
+
+        <a href="{{ post.url }}" class="related-card">
+          {{ post.title }}
+        </a>
+
+      {% endif %}
+    {% endfor %}
+
+  {% endfor %}
+
+</div>
