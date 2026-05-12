@@ -1,23 +1,23 @@
 <!-- =========================
-FLUENTE-MENTE — HOMEPAGE
-CTR + PINTEREST FUNNEL
+FLUENTE-MENTE — METODO SALES PAGE
+CONVERSION OPTIMIZED
 ========================= -->
 
 <section class="hero-home">
 
   <div class="container">
 
-    <h1>Capisci inglese… ma non riesci a parlarlo?</h1>
+    <h1>Il Metodo per iniziare a parlare inglese anche se ti blocchi sempre</h1>
 
     <p class="hero-subtitle">
-      Un metodo semplice per imparare inglese anche se hai poco tempo ogni giorno.
-      Solo pratica reale, niente teoria inutile.
+      Un sistema semplice da 10–15 minuti al giorno per trasformare l’inglese in una abitudine naturale,
+      senza grammatica inutile e senza studiare ore.
     </p>
 
     <div class="hero-cta">
 
-      <a href="/inglese/metodo/" class="btn-primary">
-        Inizia dal Metodo →
+      <a href="#come-funziona" class="btn-primary">
+        Vedi come funziona
       </a>
 
       <a href="/inglese/beginner/" class="btn-secondary">
@@ -38,44 +38,21 @@ PROBLEMA
 
   <div class="container">
 
-    <h2>Ti suona familiare?</h2>
+    <h2>Sei in questa situazione?</h2>
 
     <ul>
-      <li>Capisci l’inglese ma non riesci a parlarlo</li>
-      <li>Hai studiato per anni ma ti blocchi quando devi parlare</li>
-      <li>Non hai tempo per studiare in modo tradizionale</li>
+      <li>Capisci l’inglese ma non riesci a parlare</li>
+      <li>Ti blocchi anche per frasi semplici</li>
+      <li>Hai studiato per anni senza risultati reali</li>
+      <li>Hai paura di sbagliare quando parli</li>
     </ul>
 
-  </div>
+    <div class="cta-box cta-soft">
 
-</section>
-
-<!-- =========================
-SOLUZIONE
-========================= -->
-
-<section>
-
-  <div class="container">
-
-    <h2>Un metodo diverso da tutto quello che hai provato</h2>
-
-    <p class="section-intro">
-      Niente grammatica inutile. Solo micro-pratica quotidiana e frasi reali.
-    </p>
-
-    <div class="cta-box cta-high">
-
-      <h3>Il Metodo Fluente-Mente</h3>
-
+      <h3>La verità</h3>
       <p>
-        Il sistema centrale per passare da “capisco ma non parlo”
-        a comunicare davvero in inglese.
+        Non ti manca l’inglese. Ti manca un sistema per usarlo davvero.
       </p>
-
-      <a href="/inglese/metodo/" class="btn-primary">
-        Scopri il Metodo
-      </a>
 
     </div>
 
@@ -84,74 +61,134 @@ SOLUZIONE
 </section>
 
 <!-- =========================
-PERCORSI
+RIVELAZIONE (SHIFT)
+========================= -->
+
+<section>
+
+  <div class="container">
+
+    <h2>Il problema non è lo studio. È il metodo.</h2>
+
+    <p>
+      Hai imparato inglese come una materia scolastica.
+      Ma parlare non è teoria: è un’abilità.
+    </p>
+
+    <p>
+      E le abilità non si studiano. Si allenano.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- =========================
+COME FUNZIONA
+========================= -->
+
+<section id="come-funziona">
+
+  <div class="container">
+
+    <h2>Il Metodo Fluente-Mente</h2>
+
+    <p class="section-intro">
+      Un sistema pratico basato su micro-azioni quotidiane per creare automatismi reali nel parlato.
+    </p>
+
+    <div class="cta-box cta-high">
+
+      <h3>In pratica fai questo:</h3>
+
+      <ul>
+        <li>1. Impari frasi reali (non teoria)</li>
+        <li>2. Le ripeti ad alta voce ogni giorno</li>
+        <li>3. Le usi in contesti reali</li>
+        <li>4. Il cervello crea automatismi</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================
+PERCHÉ FUNZIONA
+========================= -->
+
+<section>
+
+  <div class="container">
+
+    <h2>Perché questo metodo funziona</h2>
+
+    <ul>
+      <li>Non studi → fai pratica</li>
+      <li>Non memorizzi → automatizzi</li>
+      <li>Non traduci → parli direttamente</li>
+    </ul>
+
+    <p>
+      È lo stesso principio con cui impari a guidare o andare in bicicletta.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- =========================
+RISULTATI
+========================= -->
+
+<section>
+
+  <div class="container">
+
+    <h2>Cosa succede dopo qualche settimana</h2>
+
+    <ul>
+      <li>Parli senza tradurre mentalmente</li>
+      <li>Ti blocchi molto meno</li>
+      <li>Capisci conversazioni reali più facilmente</li>
+      <li>Ti senti più sicuro nel parlare</li>
+    </ul>
+
+  </div>
+
+</section>
+
+<!-- =========================
+STRUTTURA METODO
 ========================= -->
 
 <section class="home-clusters">
 
   <div class="container">
 
-    <h2>Scegli il tuo percorso</h2>
-
-    <p class="section-intro">
-      Ogni percorso è pensato per un obiettivo diverso. Parti da quello giusto per te.
-    </p>
+    <h2>La struttura del Metodo</h2>
 
     <div class="paths-grid">
 
-      <a href="/inglese/metodo/" class="path-card">
-        <strong>Metodo (consigliato)</strong>
-        <span>Il sistema completo per parlare inglese</span>
+      <a class="path-card">
+        <strong>1. Micro-learning</strong>
+        <span>Piccoli contenuti quotidiani (5–10 min)</span>
       </a>
 
-      <a href="/inglese/beginner/" class="path-card">
-        <strong>Beginner</strong>
-        <span>Se parti da zero</span>
+      <a class="path-card">
+        <strong>2. Speaking attivo</strong>
+        <span>Ripetizione e produzione orale</span>
       </a>
 
-      <a href="/inglese/speaking/" class="path-card">
-        <strong>Speaking</strong>
-        <span>Parlare subito senza blocchi</span>
+      <a class="path-card">
+        <strong>3. Situazioni reali</strong>
+        <span>Frasi utili nella vita quotidiana</span>
       </a>
 
-      <a href="/inglese/mindset/" class="path-card">
-        <strong>Mindset</strong>
-        <span>Sbloccare la paura di parlare</span>
-      </a>
-
-      <a href="/inglese/business/" class="path-card">
-        <strong>Business</strong>
-        <span>Inglese per lavoro</span>
-      </a>
-
-      <a href="/inglese/viaggio/" class="path-card">
-        <strong>Viaggio</strong>
-        <span>Frasi pratiche per viaggiare</span>
-      </a>
-
-      <a href="/inglese/grammatica-pratica/" class="path-card">
-        <strong>Grammatica pratica</strong>
-        <span>Solo quello che serve davvero</span>
-      </a>
-
-      <a href="/inglese/vocabolario-pratico/" class="path-card">
-        <strong>Vocabolario pratico</strong>
-        <span>Parole utili nella vita reale</span>
-      </a>
-
-      <a href="/inglese/errori/" class="path-card">
-        <strong>Errori</strong>
-        <span>Evita gli errori più comuni</span>
-      </a>
-
-      <a href="/inglese/curiosita/" class="path-card">
-        <strong>Curiosità</strong>
-        <span>Impara in modo naturale</span>
-      </a>
-
-      <a href="/inglese/lifelong-learner/" class="path-card">
-        <strong>Lifelong learner</strong>
-        <span>Crescita continua</span>
+      <a class="path-card">
+        <strong>4. Automatizzazione</strong>
+        <span>L’inglese diventa automatico</span>
       </a>
 
     </div>
@@ -161,20 +198,28 @@ PERCORSI
 </section>
 
 <!-- =========================
-RESULTATO
+OBIEZIONE
 ========================= -->
 
 <section>
 
   <div class="container">
 
-    <h2>Cosa cambia davvero</h2>
+    <h2>“Non ho tempo”</h2>
 
-    <ul>
-      <li>Parli con più sicurezza</li>
-      <li>Ti blocchi meno nelle conversazioni</li>
-      <li>Capisci meglio film e situazioni reali</li>
-    </ul>
+    <div class="cta-box cta-medium">
+
+      <p>
+        Questo metodo è progettato proprio per chi ha poco tempo.
+      </p>
+
+      <ul>
+        <li>10–15 minuti al giorno bastano</li>
+        <li>Niente studio lungo</li>
+        <li>Niente libri pesanti</li>
+      </ul>
+
+    </div>
 
   </div>
 
@@ -188,16 +233,20 @@ CTA FINALE
 
   <div class="container">
 
-    <div class="cta-box cta-medium">
+    <div class="cta-box cta-high">
 
-      <h3>Vuoi iniziare davvero oggi?</h3>
+      <h3>Inizia oggi</h3>
 
       <p>
-        Il primo passo è il Metodo. Tutto il resto serve solo a supportarlo.
+        Non serve essere pronti. Serve iniziare.
       </p>
 
-      <a href="/inglese/metodo/" class="btn-primary">
-        Inizia ora →
+      <a href="/inglese/beginner/" class="btn-primary">
+        Inizia da Beginner →
+      </a>
+
+      <a href="/inglese/speaking/" class="btn-secondary">
+        Voglio parlare subito
       </a>
 
     </div>
