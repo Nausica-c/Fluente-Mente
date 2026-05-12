@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "Impara inglese in modo semplice e pratico"
-description: "Fluente-Mente ti aiuta a imparare inglese con metodo, pratica e contenuti semplici. Senza stress, senza teoria inutile."
+title: "Impara inglese in modo semplice"
+description: "Metodo pratico per imparare inglese senza stress, anche se hai poco tempo."
 ---
 
 <section class="home-hero">
 
-  <h1>Impara inglese in modo semplice</h1>
+  <h1>Impara inglese senza stress</h1>
 
   <p>
-    Un metodo pratico per adulti occupati che vogliono finalmente parlare inglese senza blocchi.
+    Un metodo semplice per adulti che vogliono parlare inglese senza studiare teoria inutile.
   </p>
 
   <a href="/inglese/metodo/" class="cta-primary">
@@ -21,6 +21,10 @@ description: "Fluente-Mente ti aiuta a imparare inglese con metodo, pratica e co
 ---
 
 ## 🚀 Scegli il tuo percorso
+
+<p>
+Non sai da dove iniziare? Scegli il tuo punto di partenza.
+</p>
 
 <section class="cluster-grid">
 
@@ -40,19 +44,26 @@ description: "Fluente-Mente ti aiuta a imparare inglese con metodo, pratica e co
 
 ---
 
-## 🎯 Perché Fluente-Mente
+## 🧠 Perché questo metodo funziona
 
-- Metodo semplice e realistico
-- Contenuti pratici, non teoria inutile
-- Pensato per adulti con poco tempo
+<p>
+Fluente-Mente non ti fa studiare grammatica inutile.
+Ti guida attraverso piccoli passi pratici che puoi usare subito.
+</p>
+
+<ul>
+  <li>✔ Apprendimento quotidiano</li>
+  <li>✔ Frasi reali</li>
+  <li>✔ Metodo semplice</li>
+</ul>
 
 ---
 
-## 💡 Inizia subito
+## 💰 Vuoi accelerare?
 
-Se vuoi accelerare il tuo apprendimento:
-
-👉 Prova Babbel con il metodo Fluente-Mente
+<p>
+Se vuoi risultati più rapidi puoi usare un metodo guidato e strutturato.
+</p>
 
 <a href="https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038224&clickref="
    class="cta-primary"
