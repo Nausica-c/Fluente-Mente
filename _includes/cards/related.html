@@ -1,26 +1,26 @@
 <section class="related-posts">
 
-  <h3>Continua a imparare</h3>
+  <h3>Articoli collegati</h3>
 
   <div class="related-grid">
 
     {% assign current_cluster = page.cluster %}
 
+    {% assign count = 0 %}
+
     {% for post in site.posts %}
 
-      {% if post.cluster == current_cluster and post.url != page.url %}
+      {% if post.cluster == current_cluster and post.url != page.url and count < 3 %}
 
         <a href="{{ post.url }}" class="related-card">
 
-          {% if post.title %}
-            <h4>{{ post.title }}</h4>
-          {% endif %}
+          <h4>{{ post.title }}</h4>
 
-          {% if post.description %}
-            <p>{{ post.description }}</p>
-          {% endif %}
+          <p>{{ post.description | truncate: 90 }}</p>
 
         </a>
+
+        {% assign count = count | plus: 1 %}
 
       {% endif %}
 
