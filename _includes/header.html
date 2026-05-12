@@ -1,0 +1,39 @@
+<header class="site-header">
+
+  <div class="container header-inner">
+
+    <!-- LOGO -->
+    <a href="{{ site.baseurl }}/" class="logo">
+      Fluente<span>-Mente</span>
+    </a>
+
+    <!-- NAVIGATION -->
+    <nav class="main-nav">
+
+      {% for item in site.navigation %}
+
+        <a href="{{ site.baseurl }}{{ item.url }}">
+          {{ item.title }}
+        </a>
+
+      {% endfor %}
+
+    </nav>
+
+    <!-- CTA -->
+    <div class="header-cta">
+
+      <a href="{{ site.data.affiliates.babbel.url }}"
+         class="cta-primary"
+         target="_blank"
+         rel="sponsored noopener nofollow">
+
+        {{ site.data.affiliates.babbel.label }}
+
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
