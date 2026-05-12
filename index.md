@@ -1,18 +1,21 @@
-<main class="home">
+<!-- =========================
+FLUENTE-MENTE — HOMEPAGE
+CTR + PINTEREST FUNNEL
+========================= -->
 
-  <!-- HERO -->
-  <section class="hero-home">
+<section class="hero-home">
 
-    <h1>
-      Capisci inglese… ma non riesci a parlarlo?
-    </h1>
+  <div class="container">
+
+    <h1>Capisci inglese… ma non riesci a parlarlo?</h1>
 
     <p class="hero-subtitle">
       Un metodo semplice per imparare inglese anche se hai poco tempo ogni giorno.
-      Niente teoria inutile. Solo pratica reale.
+      Solo pratica reale, niente teoria inutile.
     </p>
 
     <div class="hero-cta">
+
       <a href="/inglese/metodo/" class="btn-primary">
         Inizia dal Metodo →
       </a>
@@ -20,44 +23,54 @@
       <a href="/inglese/beginner/" class="btn-secondary">
         Sono principiante
       </a>
+
     </div>
 
-  </section>
+  </div>
 
-  <!-- PROBLEMA -->
-  <section>
+</section>
+
+<!-- =========================
+PROBLEMA
+========================= -->
+
+<section>
+
+  <div class="container">
 
     <h2>Ti suona familiare?</h2>
 
     <ul>
-      <li>Capisci inglese ma non riesci a parlare</li>
+      <li>Capisci l’inglese ma non riesci a parlarlo</li>
       <li>Hai studiato per anni ma ti blocchi quando devi parlare</li>
       <li>Non hai tempo per studiare in modo tradizionale</li>
     </ul>
 
-    <p class="section-intro">
-      Questo sito è stato creato per risolvere proprio questo problema.
-    </p>
+  </div>
 
-  </section>
+</section>
 
-  <!-- SOLUZIONE -->
-  <section>
+<!-- =========================
+SOLUZIONE
+========================= -->
+
+<section>
+
+  <div class="container">
 
     <h2>Un metodo diverso da tutto quello che hai provato</h2>
 
-    <p>
-      Niente grammatica infinita, niente teoria pesante.
-      Solo piccoli passi quotidiani e pratica reale.
+    <p class="section-intro">
+      Niente grammatica inutile. Solo micro-pratica quotidiana e frasi reali.
     </p>
 
     <div class="cta-box cta-high">
 
-      <h3>Il cuore del sistema</h3>
+      <h3>Il Metodo Fluente-Mente</h3>
 
       <p>
-        Il <strong>Metodo Fluente-Mente</strong> ti guida passo dopo passo
-        per iniziare a parlare davvero inglese.
+        Il sistema centrale per passare da “capisco ma non parlo”
+        a comunicare davvero in inglese.
       </p>
 
       <a href="/inglese/metodo/" class="btn-primary">
@@ -66,16 +79,22 @@
 
     </div>
 
-  </section>
+  </div>
 
-  <!-- PERCORSO -->
-  <section>
+</section>
 
-    <h2>Scegli il tuo punto di partenza</h2>
+<!-- =========================
+PERCORSI
+========================= -->
+
+<section class="home-clusters">
+
+  <div class="container">
+
+    <h2>Scegli il tuo percorso</h2>
 
     <p class="section-intro">
-      Parti dal percorso giusto per il tuo livello.
-      Il Metodo è il cuore, tutto il resto è supporto.
+      Ogni percorso è pensato per un obiettivo diverso. Parti da quello giusto per te.
     </p>
 
     <div class="paths-grid">
@@ -92,7 +111,7 @@
 
       <a href="/inglese/speaking/" class="path-card">
         <strong>Speaking</strong>
-        <span>Per iniziare a parlare subito</span>
+        <span>Parlare subito senza blocchi</span>
       </a>
 
       <a href="/inglese/mindset/" class="path-card">
@@ -100,20 +119,81 @@
         <span>Sbloccare la paura di parlare</span>
       </a>
 
+      <a href="/inglese/business/" class="path-card">
+        <strong>Business</strong>
+        <span>Inglese per lavoro</span>
+      </a>
+
+      <a href="/inglese/viaggio/" class="path-card">
+        <strong>Viaggio</strong>
+        <span>Frasi pratiche per viaggiare</span>
+      </a>
+
+      <a href="/inglese/grammatica-pratica/" class="path-card">
+        <strong>Grammatica pratica</strong>
+        <span>Solo quello che serve davvero</span>
+      </a>
+
+      <a href="/inglese/vocabolario-pratico/" class="path-card">
+        <strong>Vocabolario pratico</strong>
+        <span>Parole utili nella vita reale</span>
+      </a>
+
+      <a href="/inglese/errori/" class="path-card">
+        <strong>Errori</strong>
+        <span>Evita gli errori più comuni</span>
+      </a>
+
+      <a href="/inglese/curiosita/" class="path-card">
+        <strong>Curiosità</strong>
+        <span>Impara in modo naturale</span>
+      </a>
+
+      <a href="/inglese/lifelong-learner/" class="path-card">
+        <strong>Lifelong learner</strong>
+        <span>Crescita continua</span>
+      </a>
+
     </div>
 
-  </section>
+  </div>
 
-  <!-- CTA BOTTOM -->
-  <section>
+</section>
+
+<!-- =========================
+RESULTATO
+========================= -->
+
+<section>
+
+  <div class="container">
+
+    <h2>Cosa cambia davvero</h2>
+
+    <ul>
+      <li>Parli con più sicurezza</li>
+      <li>Ti blocchi meno nelle conversazioni</li>
+      <li>Capisci meglio film e situazioni reali</li>
+    </ul>
+
+  </div>
+
+</section>
+
+<!-- =========================
+CTA FINALE
+========================= -->
+
+<section>
+
+  <div class="container">
 
     <div class="cta-box cta-medium">
 
-      <h3>Pronto a iniziare davvero?</h3>
+      <h3>Vuoi iniziare davvero oggi?</h3>
 
       <p>
-        Il primo passo è il più importante.
-        Inizia dal Metodo e costruisci la tua fluidità.
+        Il primo passo è il Metodo. Tutto il resto serve solo a supportarlo.
       </p>
 
       <a href="/inglese/metodo/" class="btn-primary">
@@ -122,10 +202,6 @@
 
     </div>
 
-    <p class="section-intro">
-      Oppure esplora altri percorsi se vuoi personalizzare il tuo apprendimento.
-    </p>
+  </div>
 
-  </section>
-
-</main>
+</section>
