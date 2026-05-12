@@ -1,0 +1,15 @@
+{% assign cluster = page.cluster %}
+{% assign pin = site.data.pinterest[cluster] %}
+
+<div class="pin-engine">
+
+  <h3>{{ pin.title }}</h3>
+  <p>{{ pin.hook }}</p>
+
+  <ul>
+    <li>{{ pin.angle }}</li>
+    <li>{{ pin.emotion }}</li>
+    <li>{{ pin.cta }}</li>
+  </ul>
+
+</div>
