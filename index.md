@@ -1,21 +1,21 @@
 ---
 layout: default
 title: "Impara inglese in modo semplice e pratico"
-description: "Metodo semplice per imparare inglese anche se hai poco tempo. Contenuti pratici, zero teoria inutile."
+description: "Metodo semplice per imparare inglese anche se hai poco tempo. Zero teoria inutile, solo pratica reale."
 ---
 
 <!-- =========================
-     HERO (HOOK + PROMESSA)
+     HERO PINTEREST HOOK
      ========================= -->
 
 <section class="home-hero">
 
   <h1>
-    Impara inglese senza stress, anche se hai poco tempo
+    Parla inglese anche se hai poco tempo ogni giorno
   </h1>
 
   <p>
-    Fluente-Mente ti guida passo dopo passo con un metodo pratico per iniziare a parlare inglese nella vita reale.
+    Un metodo semplice e pratico per imparare inglese senza stress, senza libri e senza teoria inutile.
   </p>
 
   <a href="/inglese/metodo/" class="cta-primary">
@@ -27,23 +27,23 @@ description: "Metodo semplice per imparare inglese anche se hai poco tempo. Cont
 ---
 
 <!-- =========================
-     PROBLEMA + IDENTIFICAZIONE
+     PROBLEMA (PINTEREST HOOK CORE)
      ========================= -->
 
 <section class="home-problem">
 
   <h2>
-    Ti riconosci in questa situazione?
+    Ti suona familiare?
   </h2>
 
   <ul>
-    <li>Hai studiato inglese per anni ma non riesci a parlarlo</li>
-    <li>Capisci qualcosa, ma ti blocchi quando devi parlare</li>
-    <li>Non hai tempo per studiare libri o grammatica complicata</li>
+    <li>Capisci l’inglese ma non riesci a parlarlo</li>
+    <li>Hai studiato per anni ma ti blocchi quando devi parlare</li>
+    <li>Non hai tempo per studiare in modo tradizionale</li>
   </ul>
 
   <p>
-    Questo sito nasce per risolvere proprio questo.
+    Questo sito è stato creato per risolvere proprio questo problema.
   </p>
 
 </section>
@@ -51,17 +51,42 @@ description: "Metodo semplice per imparare inglese anche se hai poco tempo. Cont
 ---
 
 <!-- =========================
-     CLUSTER HUB (SEO CORE)
+     QUICK VALUE (WHY THIS WORKS)
+     ========================= -->
+
+<section class="home-value">
+
+  <h2>
+    Un metodo diverso da tutto quello che hai provato
+  </h2>
+
+  <p>
+    Non studierai grammatica inutile.
+    Imparerai inglese con esempi reali, frasi pratiche e piccoli passi quotidiani.
+  </p>
+
+  <ul>
+    <li>✔ Parli fin da subito</li>
+    <li>✔ Studia poco ma ogni giorno</li>
+    <li>✔ Metodo semplice e ripetibile</li>
+  </ul>
+
+</section>
+
+---
+
+<!-- =========================
+     CLUSTER HUB (SEO AUTHORITY CORE)
      ========================= -->
 
 <section class="cluster-grid-section">
 
   <h2>
-    Scegli da dove iniziare
+    Scegli il tuo percorso
   </h2>
 
   <p>
-    Ogni percorso è pensato per un obiettivo diverso.
+    Ogni percorso è pensato per un obiettivo diverso. Parti da quello che ti serve ora.
   </p>
 
   <div class="cluster-grid">
@@ -85,32 +110,7 @@ description: "Metodo semplice per imparare inglese anche se hai poco tempo. Cont
 ---
 
 <!-- =========================
-     COME FUNZIONA (VALUE EXPLANATION)
-     ========================= -->
-
-<section class="home-method">
-
-  <h2>
-    Come funziona Fluente-Mente
-  </h2>
-
-  <p>
-    Non studierai teoria inutile.
-    Imparerai inglese attraverso situazioni reali, esempi pratici e piccoli passi quotidiani.
-  </p>
-
-  <ul>
-    <li>✔ Metodo semplice e costante</li>
-    <li>✔ Frasi reali usate nella vita quotidiana</li>
-    <li>✔ Focus su parlare, non memorizzare regole</li>
-  </ul>
-
-</section>
-
----
-
-<!-- =========================
-     BENEFICI (PSYCHOLOGICAL PUSH)
+     BENEFICI (PSYCHOLOGICAL SHIFT)
      ========================= -->
 
 <section class="home-benefits">
@@ -119,15 +119,29 @@ description: "Metodo semplice per imparare inglese anche se hai poco tempo. Cont
     Cosa cambia davvero
   </h2>
 
-  <p>
-    Dopo qualche settimana:
-  </p>
-
   <ul>
     <li>Parli con più sicurezza</li>
-    <li>Ti blocchi meno nelle conversazioni</li>
-    <li>Capisci meglio film, persone e contesti reali</li>
+    <li>Ti blocchi meno nelle conversazioni reali</li>
+    <li>Capisci meglio film, persone e situazioni quotidiane</li>
   </ul>
+
+</section>
+
+---
+
+<!-- =========================
+     PINTEREST CTA SECTION
+     ========================= -->
+
+<section class="home-pinterest-hook">
+
+  <h2>
+    Inizia oggi con piccoli passi
+  </h2>
+
+  <p>
+    Anche solo 10–15 minuti al giorno possono cambiare il tuo inglese.
+  </p>
 
 </section>
 
