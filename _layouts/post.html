@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <!-- HERO -->
+  <header class="post-hero">
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.description %}
+      <p class="post-subtitle">{{ page.description }}</p>
+    {% endif %}
+
+    {% if page.image %}
+      <img src="{{ page.image }}" alt="{{ page.title }}" class="post-image">
+    {% endif %}
+
+    <div class="post-meta">
+      <span>Cluster: {{ page.cluster }}</span>
+      <span>Lingua: {{ page.language }}</span>
+    </div>
+
+  </header>
+
+  <!-- CONTENT -->
+  <section class="post-content">
+
+    <!-- INTRO HOOK -->
+    <div class="intro-hook">
+      {{ page.intro }}
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content-body">
+      {{ content }}
+    </div>
+
+  </section>
+
+  <!-- CTA 1 (SOFT) -->
+  <section class="cta-section">
+    {% include cta/babbel-cta.html %}
+  </section>
+
+  <!-- RELATED POSTS -->
+  <section class="related-section">
+    {% include cards/related.html %}
+  </section>
+
+  <!-- CTA 2 (STRONG / FINAL PUSH) -->
+  <section class="cta-final">
+    {% include cta/babbel-cta.html %}
+  </section>
+
+  <!-- FAQ (SEO BOOST) -->
+  {% if page.faq %}
+  <section class="faq-section">
+
+    <h3>Domande frequenti</h3>
+
+    {% for item in page.faq %}
+      <div class="faq-item">
+        <h4>{{ item.q }}</h4>
+        <p>{{ item.a }}</p>
+      </div>
+    {% endfor %}
+
+  </section>
+  {% endif %}
+
+  <!-- SCHEMA -->
+  {% include schema/article.html %}
+
+</article>
