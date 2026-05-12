@@ -4,6 +4,9 @@ layout: default
 
 <article class="post">
 
+  <!-- 🧠 AUTOMATION CONTEXT (CLUSTER ENGINE) -->
+  {% include automation/cluster-controller.html %}
+
   <!-- HERO -->
   <header class="post-hero">
 
@@ -32,6 +35,11 @@ layout: default
       {{ page.intro }}
     </div>
 
+    <!-- 💰 CTA SOFT (EARLY CONVERSION) -->
+    <section class="cta-section">
+      {% include automation/cta-engine.html %}
+    </section>
+
     <!-- MAIN CONTENT -->
     <div class="content-body">
       {{ content }}
@@ -39,17 +47,12 @@ layout: default
 
   </section>
 
-  <!-- CTA 1 (SOFT) -->
-  <section class="cta-section">
-    {% include cta/babbel-cta.html %}
-  </section>
-
-  <!-- RELATED POSTS -->
+  <!-- 🔗 RELATED POSTS (SEO GRAPH NAVIGATION) -->
   <section class="related-section">
-    {% include cards/related.html %}
+    {% include automation/related-engine.html %}
   </section>
 
-  <!-- CTA 2 (STRONG / FINAL PUSH) -->
+  <!-- 💰 CTA FINAL PUSH -->
   <section class="cta-final">
     {% include cta/babbel-cta.html %}
   </section>
@@ -70,16 +73,16 @@ layout: default
   </section>
   {% endif %}
 
-  <!-- PINTEREST ENGINE -->
+  <!-- 📌 PINTEREST ENGINE (TRAFFIC DISTRIBUTION LAYER) -->
   <section class="pinterest-section">
 
     <h3>Idee per salvare e ricordare questo contenuto</h3>
 
-    {% include pinterest/pin-generator.html %}
+    {% include automation/pinterest-engine.html %}
 
   </section>
 
-  <!-- SCHEMA -->
+  <!-- 🧠 SCHEMA SEO -->
   {% include schema/article.html %}
 
 </article>
