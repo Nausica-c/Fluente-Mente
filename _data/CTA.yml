@@ -1,0 +1,83 @@
+default:
+  title: "Impara inglese in modo semplice"
+  subtitle: "Un approccio pratico per migliorare ogni giorno"
+  button: "Prova Babbel"
+  tone: "neutral"
+  intensity: "medium"
+
+beginner:
+  title: "Inizia a parlare inglese da zero"
+  subtitle: "Piccole lezioni quotidiane per costruire basi solide senza stress"
+  button: "Inizia ora con Babbel"
+  tone: "supportive"
+  intensity: "soft"
+
+speaking:
+  title: "Finalmente parlare senza blocchi"
+  subtitle: "Esercitati ogni giorno con situazioni reali"
+  button: "Sblocca il tuo speaking"
+  tone: "motivational"
+  intensity: "strong"
+
+business:
+  title: "Inglese per lavoro e carriera"
+  subtitle: "Comunica con sicurezza in riunioni, email e colloqui"
+  button: "Cresci nella tua carriera"
+  tone: "professional"
+  intensity: "strong"
+
+metodo:
+  title: "Il metodo giusto cambia tutto"
+  subtitle: "Scopri come imparare inglese in modo più veloce e costante"
+  button: "Prova il metodo Babbel"
+  tone: "educational"
+  intensity: "medium"
+
+mindset:
+  title: "Blocchi mentali? È normale"
+  subtitle: "Supera la paura di parlare inglese e sblocca la tua fiducia"
+  button: "Sblocca la tua fiducia"
+  tone: "emotional"
+  intensity: "soft"
+
+viaggio:
+  title: "Inglese per viaggiare senza stress"
+  subtitle: "Frasi pratiche per aeroporti, hotel e situazioni reali"
+  button: "Parla all’estero subito"
+  tone: "practical"
+  intensity: "medium"
+
+grammatica-pratica:
+  title: "Grammatica senza confusione"
+  subtitle: "Impara solo le regole che servono davvero"
+  button: "Capisci la grammatica facile"
+  tone: "educational"
+  intensity: "medium"
+
+vocabolario-pratico:
+  title: "Parole utili subito nella vita reale"
+  subtitle: "Vocabolario pratico per situazioni quotidiane"
+  button: "Impara parole utili subito"
+  tone: "educational"
+  intensity: "medium"
+
+errori:
+  title: "Smetti di fare questi errori"
+  subtitle: "Correggi gli errori più comuni e migliora subito"
+  button: "Evita gli errori ora"
+  tone: "corrective"
+  intensity: "strong"
+
+curiosita:
+  title: "Curiosità che migliorano il tuo inglese"
+  subtitle: "Scopri dettagli linguistici che rendono tutto più facile"
+  button: "Scopri di più"
+  tone: "light"
+  intensity: "soft"
+
+lifelong-learner:
+  title: "Non è mai troppo tardi per imparare inglese"
+  subtitle: "Migliora a qualsiasi età con un metodo semplice"
+  button: "Inizia oggi"
+  tone: "emotional"
+  intensity: "soft"
