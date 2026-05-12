@@ -1,177 +1,159 @@
----
-layout: default
-title: "Impara inglese in modo semplice e pratico"
-description: "Metodo semplice per imparare inglese anche se hai poco tempo. Zero teoria inutile, solo pratica reale."
----
+<!DOCTYPE html>
+<html lang="it">
 
-<!-- =========================
-     HERO PINTEREST HOOK
-     ========================= -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<section class="home-hero">
+  <title>Impara inglese in modo semplice e pratico | Fluente-Mente</title>
+  <meta name="description" content="Metodo semplice per imparare inglese anche se hai poco tempo. Zero teoria inutile, solo pratica reale.">
 
-  <h1>
-    Parla inglese anche se hai poco tempo ogni giorno
-  </h1>
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
 
-  <p>
-    Un metodo semplice e pratico per imparare inglese senza stress, senza libri e senza teoria inutile.
-  </p>
+<body>
 
-  <a href="/inglese/metodo/" class="cta-primary">
-    Inizia dal metodo
-  </a>
+  <!-- =========================
+       HEADER
+       ========================= -->
+  {% include header.html %}
 
-</section>
+  <main class="site-main">
 
----
+    <div class="container">
 
-<!-- =========================
-     PROBLEMA (PINTEREST HOOK CORE)
-     ========================= -->
+      <!-- =========================
+           HERO
+           ========================= -->
 
-<section class="home-problem">
+      <section class="home-hero">
 
-  <h2>
-    Ti suona familiare?
-  </h2>
+        <h1>
+          Parla inglese anche se hai poco tempo ogni giorno
+        </h1>
 
-  <ul>
-    <li>Capisci l’inglese ma non riesci a parlarlo</li>
-    <li>Hai studiato per anni ma ti blocchi quando devi parlare</li>
-    <li>Non hai tempo per studiare in modo tradizionale</li>
-  </ul>
+        <p>
+          Un metodo semplice e pratico per imparare inglese senza stress, senza libri e senza teoria inutile.
+        </p>
 
-  <p>
-    Questo sito è stato creato per risolvere proprio questo problema.
-  </p>
+        <a href="/inglese/metodo/" class="cta-primary">
+          Inizia dal metodo
+        </a>
 
-</section>
+      </section>
 
----
+      <!-- =========================
+           PROBLEMA
+           ========================= -->
 
-<!-- =========================
-     QUICK VALUE (WHY THIS WORKS)
-     ========================= -->
+      <section class="home-problem">
 
-<section class="home-value">
+        <h2>Ti suona familiare?</h2>
 
-  <h2>
-    Un metodo diverso da tutto quello che hai provato
-  </h2>
+        <ul>
+          <li>Capisci l’inglese ma non riesci a parlarlo</li>
+          <li>Hai studiato per anni ma ti blocchi quando devi parlare</li>
+          <li>Non hai tempo per studiare in modo tradizionale</li>
+        </ul>
 
-  <p>
-    Non studierai grammatica inutile.
-    Imparerai inglese con esempi reali, frasi pratiche e piccoli passi quotidiani.
-  </p>
+        <p>
+          Questo sito è stato creato per risolvere proprio questo problema.
+        </p>
 
-  <ul>
-    <li>✔ Parli fin da subito</li>
-    <li>✔ Studia poco ma ogni giorno</li>
-    <li>✔ Metodo semplice e ripetibile</li>
-  </ul>
+      </section>
 
-</section>
+      <!-- =========================
+           VALUE
+           ========================= -->
 
----
+      <section class="home-value">
 
-<!-- =========================
-     CLUSTER HUB (SEO AUTHORITY CORE)
-     ========================= -->
+        <h2>Un metodo diverso da tutto quello che hai provato</h2>
 
-<section class="cluster-grid-section">
+        <p>
+          Niente grammatica inutile. Solo pratica reale, piccoli passi e abitudine quotidiana.
+        </p>
 
-  <h2>
-    Scegli il tuo percorso
-  </h2>
+      </section>
 
-  <p>
-    Ogni percorso è pensato per un obiettivo diverso. Parti da quello che ti serve ora.
-  </p>
+      <!-- =========================
+           CLUSTER GRID
+           ========================= -->
 
-  <div class="cluster-grid">
+      <section class="cluster-grid-section">
 
-    - [Metodo](/inglese/metodo/)
-    - [Beginner](/inglese/beginner/)
-    - [Speaking](/inglese/speaking/)
-    - [Mindset](/inglese/mindset/)
-    - [Business](/inglese/business/)
-    - [Viaggio](/inglese/viaggio/)
-    - [Grammatica pratica](/inglese/grammatica-pratica/)
-    - [Vocabolario pratico](/inglese/vocabolario-pratico/)
-    - [Errori](/inglese/errori/)
-    - [Curiosità](/inglese/curiosita/)
-    - [Lifelong learner](/inglese/lifelong-learner/)
+        <h2>Scegli il tuo percorso</h2>
 
-  </div>
+        <div class="cluster-grid">
 
-</section>
+          <a href="/inglese/metodo/">Metodo</a>
+          <a href="/inglese/beginner/">Beginner</a>
+          <a href="/inglese/speaking/">Speaking</a>
+          <a href="/inglese/mindset/">Mindset</a>
+          <a href="/inglese/business/">Business</a>
+          <a href="/inglese/viaggio/">Viaggio</a>
+          <a href="/inglese/grammatica-pratica/">Grammatica</a>
+          <a href="/inglese/vocabolario-pratico/">Vocabolario</a>
+          <a href="/inglese/errori/">Errori</a>
+          <a href="/inglese/curiosita/">Curiosità</a>
+          <a href="/inglese/lifelong-learner/">Lifelong learner</a>
 
----
+        </div>
 
-<!-- =========================
-     BENEFICI (PSYCHOLOGICAL SHIFT)
-     ========================= -->
+      </section>
 
-<section class="home-benefits">
+      <!-- =========================
+           BENEFICI
+           ========================= -->
 
-  <h2>
-    Cosa cambia davvero
-  </h2>
+      <section class="home-benefits">
 
-  <ul>
-    <li>Parli con più sicurezza</li>
-    <li>Ti blocchi meno nelle conversazioni reali</li>
-    <li>Capisci meglio film, persone e situazioni quotidiane</li>
-  </ul>
+        <h2>Cosa cambia davvero</h2>
 
-</section>
+        <ul>
+          <li>Parli con più sicurezza</li>
+          <li>Ti blocchi meno nelle conversazioni</li>
+          <li>Capisci meglio film e situazioni reali</li>
+        </ul>
 
----
+      </section>
 
-<!-- =========================
-     PINTEREST CTA SECTION
-     ========================= -->
+      <!-- =========================
+           CTA BABBEL
+           ========================= -->
 
-<section class="home-pinterest-hook">
+      <section class="home-cta">
 
-  <h2>
-    Inizia oggi con piccoli passi
-  </h2>
+        <div class="cta-box">
 
-  <p>
-    Anche solo 10–15 minuti al giorno possono cambiare il tuo inglese.
-  </p>
+          <h3>Vuoi accelerare i risultati?</h3>
 
-</section>
+          <p>
+            Un metodo guidato può aiutarti a costruire abitudine e fluidità più velocemente.
+          </p>
 
----
+          <a href="https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038224&clickref="
+             class="cta-primary"
+             target="_blank"
+             rel="sponsored noopener nofollow">
 
-<!-- =========================
-     CONVERSION (BABBEL SOFT PUSH)
-     ========================= -->
+            Prova Babbel
 
-<section class="home-cta">
+          </a>
 
-  <div class="cta-box">
+        </div>
 
-    <h3>
-      Vuoi accelerare i risultati?
-    </h3>
+      </section>
 
-    <p>
-      Un metodo guidato può aiutarti a costruire abitudine e fluidità più velocemente.
-    </p>
+    </div>
 
-    <a href="https://www.awin1.com/awclick.php?gid=322314&mid=9659&awinaffid=2764918&linkid=2038224&clickref="
-       class="cta-primary"
-       target="_blank"
-       rel="sponsored noopener nofollow">
+  </main>
 
-      Prova Babbel
+  <!-- =========================
+       FOOTER
+       ========================= -->
+  {% include footer.html %}
 
-    </a>
+</body>
 
-  </div>
-
-</section>
+</html>
