@@ -72,77 +72,79 @@ L’obiettivo è usarlo ogni giorno senza stress.
 
 <section class="home-clusters">
 
-## Scegli il tuo percorso
+  <h2>Scegli il tuo percorso</h2>
 
-Ogni percorso è pensato per un obiettivo diverso.
-Parti da quello giusto per te.
+  <p class="section-intro">
+    Ogni percorso è pensato per un obiettivo diverso.
+    Parti da quello giusto per te.
+  </p>
 
-### Percorsi principali
+  <h3>Percorsi principali</h3>
 
-<div class="cluster-grid">
+  <div class="cluster-grid">
 
-<a href="/inglese/metodo/" class="cluster-card">
-  <strong>Metodo</strong>
-  <span>Routine, abitudini e strategia</span>
-</a>
+    <a href="/inglese/metodo/" class="cluster-card metodo">
+      <strong>Metodo</strong>
+      <span>Routine, abitudini e strategia</span>
+    </a>
 
-<a href="/inglese/beginner/" class="cluster-card">
-  <strong>Beginner</strong>
-  <span>Per chi parte da zero</span>
-</a>
+    <a href="/inglese/beginner/" class="cluster-card beginner">
+      <strong>Beginner</strong>
+      <span>Per chi parte da zero</span>
+    </a>
 
-<a href="/inglese/speaking/" class="cluster-card">
-  <strong>Speaking</strong>
-  <span>Parlare senza bloccarsi</span>
-</a>
+    <a href="/inglese/speaking/" class="cluster-card speaking">
+      <strong>Speaking</strong>
+      <span>Parlare senza bloccarsi</span>
+    </a>
 
-<a href="/inglese/mindset/" class="cluster-card">
-  <strong>Mindset</strong>
-  <span>Eliminare ansia e frustrazione</span>
-</a>
+    <a href="/inglese/mindset/" class="cluster-card mindset">
+      <strong>Mindset</strong>
+      <span>Eliminare ansia e frustrazione</span>
+    </a>
 
-<a href="/inglese/business/" class="cluster-card">
-  <strong>Business</strong>
-  <span>Inglese per lavoro e carriera</span>
-</a>
+    <a href="/inglese/business/" class="cluster-card business">
+      <strong>Business</strong>
+      <span>Inglese per lavoro e carriera</span>
+    </a>
 
-</div>
+  </div>
 
-### Supporto e crescita
+  <h3>Supporto e crescita</h3>
 
-<div class="cluster-grid">
+  <div class="cluster-grid">
 
-<a href="/inglese/viaggio/" class="cluster-card">
-  <strong>Viaggio</strong>
-  <span>Inglese utile in viaggio</span>
-</a>
+    <a href="/inglese/viaggio/" class="cluster-card viaggio">
+      <strong>Viaggio</strong>
+      <span>Inglese utile in viaggio</span>
+    </a>
 
-<a href="/inglese/grammatica-pratica/" class="cluster-card">
-  <strong>Grammatica pratica</strong>
-  <span>Solo ciò che serve davvero</span>
-</a>
+    <a href="/inglese/grammatica-pratica/" class="cluster-card grammatica">
+      <strong>Grammatica pratica</strong>
+      <span>Solo ciò che serve davvero</span>
+    </a>
 
-<a href="/inglese/vocabolario-pratico/" class="cluster-card">
-  <strong>Vocabolario pratico</strong>
-  <span>Parole e frasi reali</span>
-</a>
+    <a href="/inglese/vocabolario-pratico/" class="cluster-card vocabolario">
+      <strong>Vocabolario pratico</strong>
+      <span>Parole e frasi reali</span>
+    </a>
 
-<a href="/inglese/errori/" class="cluster-card">
-  <strong>Errori</strong>
-  <span>Gli sbagli più comuni</span>
-</a>
+    <a href="/inglese/errori/" class="cluster-card errori">
+      <strong>Errori</strong>
+      <span>Gli sbagli più comuni</span>
+    </a>
 
-<a href="/inglese/curiosita/" class="cluster-card">
-  <strong>Curiosità</strong>
-  <span>Espressioni e cultura inglese</span>
-</a>
+    <a href="/inglese/curiosita/" class="cluster-card curiosita">
+      <strong>Curiosità</strong>
+      <span>Espressioni e cultura inglese</span>
+    </a>
 
-<a href="/inglese/lifelong-learner/" class="cluster-card">
-  <strong>Lifelong learner</strong>
-  <span>Imparare inglese da adulti</span>
-</a>
+    <a href="/inglese/lifelong-learner/" class="cluster-card lifelong">
+      <strong>Lifelong learner</strong>
+      <span>Imparare inglese da adulti</span>
+    </a>
 
-</div>
+  </div>
 
 </section>
 
