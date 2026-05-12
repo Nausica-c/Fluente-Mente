@@ -1,74 +1,73 @@
 ---
 layout: default
 title: "FluenteMente"
-description: "Impara inglese in modo naturale, anche se hai poco tempo. Metodo pratico, speaking reale e abitudini quotidiane."
+description: "Impara inglese in modo naturale, anche se hai poco tempo. Speaking reale, metodo pratico e routine sostenibili."
 ---
 
 <section class="hero-home">
 
-# Parla inglese anche se hai poco tempo ogni giorno
+  <div class="hero-badge">
+    Inglese pratico per adulti impegnati
+  </div>
 
-Imparare inglese non deve essere stressante.
+  <h1>
+    Parla inglese anche se hai poco tempo ogni giorno
+  </h1>
 
-Niente libri infiniti.  
-Niente teoria inutile.  
-Niente studio perfetto.
+  <p>
+    FluenteMente ti aiuta a trasformare l’inglese in
+    un’abitudine quotidiana sostenibile.
+    Niente studio infinito.
+    Solo pratica reale, speaking e piccoli progressi costanti.
+  </p>
 
-Su FluenteMente trovi un metodo pratico per adulti impegnati:
-piccole abitudini, speaking reale e inglese usato nella vita quotidiana.
+  <div class="hero-cta">
 
-<div class="hero-cta">
-  <a href="/inglese/metodo/" class="btn-primary">
-    Inizia dal metodo
-  </a>
+    <a href="/inglese/metodo/" class="btn-primary">
+      Inizia dal metodo
+    </a>
 
-  <a href="/prova-babbel/" class="btn-secondary">
-    Prova Babbel
-  </a>
-</div>
+    <a href="/prova-babbel/" class="btn-secondary">
+      Prova Babbel
+    </a>
+
+  </div>
 
 </section>
-
----
 
 <section class="home-problem">
 
-## Ti suona familiare?
+  <h2>Ti riconosci in una di queste situazioni?</h2>
 
-- Capisci l’inglese ma non riesci a parlarlo
-- Hai studiato per anni senza sentirti davvero fluente
-- Ti blocchi quando devi parlare
-- Non hai tempo per studiare in modo tradizionale
-- Inizi e molli continuamente
+  <div class="problem-grid">
 
-FluenteMente nasce proprio per risolvere questo problema.
+    <div class="problem-card">
+      <strong>Capisci ma non parli</strong>
+      <span>
+        Sai leggere o ascoltare inglese,
+        ma ti blocchi quando devi parlare.
+      </span>
+    </div>
 
-</section>
+    <div class="problem-card">
+      <strong>Non hai tempo</strong>
+      <span>
+        Tra lavoro, impegni e stanchezza,
+        studiare sembra impossibile.
+      </span>
+    </div>
 
----
+    <div class="problem-card">
+      <strong>Hai già mollato</strong>
+      <span>
+        Hai iniziato tante volte,
+        ma senza un metodo sostenibile.
+      </span>
+    </div>
 
-<section class="home-method">
-
-## Un metodo diverso da tutto quello che hai provato
-
-Qui non trovi:
-- grammatica infinita
-- esercizi scolastici
-- studio passivo
-
-Trovi invece:
-- speaking pratico
-- routine brevi
-- immersione quotidiana
-- inglese reale
-- metodo sostenibile
-
-L’obiettivo non è “studiare inglese”.  
-L’obiettivo è usarlo ogni giorno senza stress.
+  </div>
 
 </section>
-
----
 
 <section class="home-clusters">
 
@@ -148,25 +147,51 @@ L’obiettivo è usarlo ogni giorno senza stress.
 
 </section>
 
----
+<section class="home-proof">
 
-<section class="home-mini-cta">
+  <h2>Imparare inglese non deve essere frustrante</h2>
 
-## Non serve avere ore libere
+  <p class="section-intro">
+    Bastano piccoli passi costanti, un metodo sostenibile
+    e pratica reale ogni giorno.
+  </p>
 
-Bastano:
-- 10 minuti al giorno
-- costanza
-- input giusto
-- pratica reale
+  <div class="proof-grid">
 
-Inizia da un solo articolo.
-Poi continua un piccolo passo alla volta.
+    <div class="proof-card">
+      <strong>10 minuti</strong>
+      <span>di pratica quotidiana</span>
+    </div>
 
-<div class="hero-cta">
-  <a href="/inglese/metodo/" class="btn-primary">
-    Inizia ora
-  </a>
-</div>
+    <div class="proof-card">
+      <strong>Routine reali</strong>
+      <span>pensate per adulti impegnati</span>
+    </div>
+
+    <div class="proof-card">
+      <strong>Speaking pratico</strong>
+      <span>non grammatica infinita</span>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="home-final-cta">
+
+  <h2>Inizia oggi</h2>
+
+  <p>
+    Non serve essere perfetti.
+    Serve solo iniziare con il metodo giusto.
+  </p>
+
+  <div class="hero-cta">
+
+    <a href="/inglese/metodo/" class="btn-primary">
+      Scopri il metodo
+    </a>
+
+  </div>
 
 </section>
