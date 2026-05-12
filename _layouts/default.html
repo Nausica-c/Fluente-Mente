@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  {% include seo/head.html %}
+
+  <link rel="stylesheet"
+        href="{{ site.baseurl }}/assets/css/main.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  {% include header.html %}
+
+  <!-- MAIN -->
+  <main class="site-main">
+
+    <div class="container">
+
+      {{ content }}
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  {% include footer.html %}
+
+</body>
+
+</html>
