@@ -1,2 +1,44 @@
-default_description: "Impara inglese in modo semplice e pratico"
-keywords: ["inglese", "imparare inglese", "speaking"]
+site_name: "Fluente-Mente"
+default_title: "Impara inglese in modo semplice e pratico"
+default_description: "Un metodo semplice e quotidiano per imparare inglese senza stress."
+
+default_keywords:
+  - inglese
+  - imparare inglese
+  - speaking inglese
+  - metodo inglese
+  - inglese facile
+
+author: "Fluente-Mente"
+
+language_default: "it"
+
+robots: "index, follow"
+
+og_image: "/assets/images/og-default.jpg"
+
+twitter_card: "summary_large_image"
+
+tone_of_voice: "semplice, pratico, motivazionale"
+
+seo_intent: "informational + transformational"
+
+content_rules:
+  - "Scrivi per adulti occupati"
+  - "Evita teoria inutile"
+  - "Usa esempi reali"
+  - "Focus su azione immediata"
+  - "Lingua semplice e diretta"
+
+cluster_mapping:
+  metodo: "learning system and habit building"
+  mindset: "emotional barrier and confidence"
+  speaking: "fluency activation and real communication"
+  beginner: "zero knowledge onboarding"
+  viaggio: "survival English and real situations"
+  business: "professional communication"
+  grammatica-pratica: "minimal grammar rules"
+  vocabolario-pratico: "real life vocabulary"
+  errori: "correction and improvement"
+  curiosita: "engagement and discovery"
+  lifelong-learner: "identity and long term learning"
