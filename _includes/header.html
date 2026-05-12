@@ -13,7 +13,7 @@
     <!-- NAV (UN SOLO NAV, NON DOPPIO) -->
     <nav class="main-nav">
 
-      {% assign sorted_nav = site.navigation | sort: "weight" | reverse %}
+      {% assign sorted_nav = site.data.navigation | sort: "weight" | reverse %}
 
       {% for item in sorted_nav %}
         {% if item.primary == true %}
