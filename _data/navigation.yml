@@ -1,0 +1,5 @@
+main:
+  - label: "Metodo"
+    url: "/inglese/metodo/"
+  - label: "Speaking"
+    url: "/inglese/speaking/"
