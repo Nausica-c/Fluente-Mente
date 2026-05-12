@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <!-- BREADCRUMBS -->
+  {% include breadcrumbs.html %}
+
+  <!-- HERO -->
+  {% include hero.html %}
+
+  <!-- CONTENT -->
+  <section class="post-content">
+
+    {{ content }}
+
+  </section>
+
+  <!-- CTA -->
+  <section class="post-cta">
+
+    {% include cta/cta.html %}
+
+  </section>
+
+  <!-- RELATED POSTS -->
+  <section class="post-related">
+
+    {% include related/related-posts.html %}
+
+  </section>
+
+</article>
