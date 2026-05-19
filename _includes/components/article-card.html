@@ -1,0 +1,19 @@
+<!-- 📰 ARTICLE CARD -->
+
+<article class="card article-card">
+
+  <a href="{{ include.url }}" class="article-card__link">
+
+    <h3 class="article-card__title">
+      {{ include.title }}
+    </h3>
+
+    {% if include.excerpt %}
+    <p class="article-card__excerpt">
+      {{ include.excerpt }}
+    </p>
+    {% endif %}
+
+  </a>
+
+</article>
