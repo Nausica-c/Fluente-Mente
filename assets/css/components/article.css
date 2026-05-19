@@ -74,3 +74,9 @@
 
   background: #f8fafc;
 }
+.affiliate-disclosure {
+  font-size: 0.85rem;
+  color: var(--color-text-soft);
+  margin-top: var(--space-3);
+  line-height: 1.4;
+}
