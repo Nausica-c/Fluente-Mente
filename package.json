@@ -1,0 +1,10 @@
+{
+  "name": "fluentemente",
+  "version": "1.0.0",
+  "description": "FluenteMente - Learn real English with SEO-first structure",
+  "scripts": {
+    "dev": "jekyll serve",
+    "build": "jekyll build"
+  },
+  "devDependencies": {}
+}
