@@ -1,0 +1,35 @@
+# =========================
+# FLUENTEMENTE - JEKYLL CONFIG
+# =========================
+
+title: FluenteMente
+description: Impara l'inglese reale, non quello dei libri.
+
+baseurl: ""
+url: "https://nausica-c.github.io/Fluente-Mente"
+
+# 📄 PERMALINKS SEO FRIENDLY
+permalink: /:categories/:title/
+
+# 📦 COLLECTIONS (se servono in futuro)
+collections:
+  posts:
+    output: true
+
+# 🧠 DEFAULT FRONTMATTER
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# ⚙ BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+
+# 🚫 FILE DA ESCLUDERE
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - README.md
