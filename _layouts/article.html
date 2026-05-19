@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article class="article">
+
+  <div class="article__container">
+
+    <!-- 🧠 HEADER ARTICOLO -->
+    <header class="article__header">
+
+      <h1 class="article__title">
+        {{ page.title }}
+      </h1>
+
+      {% if page.subtitle %}
+      <p class="article__subtitle">
+        {{ page.subtitle }}
+      </p>
+      {% endif %}
+
+    </header>
+
+    <!-- 📄 CONTENUTO -->
+    <div class="article__content">
+      {{ content }}
+    </div>
+
+    <!-- 📣 CTA FINALE -->
+    {% include cta-banner.html %}
+
+  </div>
+
+</article>
