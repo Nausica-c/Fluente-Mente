@@ -1,0 +1,27 @@
+<!-- 🔗 RELATED POSTS -->
+
+<section class="related-posts">
+
+  <div class="page__container">
+
+    <h2 class="section-title__heading">
+      {{ include.title | default: "Articoli correlati" }}
+    </h2>
+
+    <div class="related-posts__grid">
+
+      {% for post in include.posts %}
+
+        {% include components/article-card.html
+          title=post.title
+          url=post.url
+          excerpt=post.excerpt
+        %}
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</section>
