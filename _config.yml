@@ -5,8 +5,8 @@
 title: FluenteMente
 description: Impara l'inglese reale, non quello dei libri.
 
-baseurl: ""
-url: "https://nausica-c.github.io/Fluente-Mente"
+baseurl: "/Fluente-Mente"
+url: "https://nausica-c.github.io"
 
 # 📄 PERMALINKS SEO FRIENDLY
 permalink: /:categories/:title/
