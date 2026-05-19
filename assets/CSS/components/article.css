@@ -1,0 +1,33 @@
+.article {
+  padding-block: var(--space-8);
+}
+
+.article__container {
+  width: min(760px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.article__header {
+  margin-bottom: var(--space-7);
+}
+
+.article__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+
+  margin-bottom: var(--space-5);
+}
+
+.article__subtitle {
+  font-size: var(--text-lg);
+  color: var(--color-text-soft);
+  line-height: var(--leading-loose);
+}
+
+.article__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
