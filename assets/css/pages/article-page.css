@@ -1,0 +1,10 @@
+/* ARTICLE PAGE - override specifici pagina articolo */
+
+.article-page {
+  background: var(--color-bg);
+}
+
+/* esempio: leggero aggiustamento spacing globale */
+.article-page .article {
+  padding-top: var(--space-7);
+}
