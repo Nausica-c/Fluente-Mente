@@ -1,0 +1,122 @@
+---
+layout: landing
+title: Impara l’inglese reale (non quello dei libri)
+description: FluenteMente ti aiuta a passare da “capisco ma non parlo” a usare l’inglese nella vita reale.
+permalink: /inglese/
+---
+
+<!-- 🚀 HERO PRINCIPALE -->
+{% include sections/hero.html
+  title="Impara l’inglese reale"
+  subtitle="Non quello dei libri. Quello che usano le persone ogni giorno."
+  cta='<a href="{{ "/inglese/percorso/beginner/" | relative_url }}" class="btn btn-primary">Inizia da Beginner</a>'
+%}
+
+<!-- 🧠 SEZIONE 1: PERCORSO -->
+<section class="section">
+
+  {% include components/section-title.html
+    title="Il tuo percorso"
+    subtitle="Da zero a parlare davvero inglese"
+  %}
+
+  <div class="grid">
+
+    {% include components/article-card.html
+      title="Beginner"
+      url="/inglese/percorso/beginner/" | relative_url
+      excerpt="Se parti da zero o ti senti bloccato."
+    %}
+
+    {% include components/article-card.html
+      title="Lifelong Learner"
+      url="/inglese/percorso/lifelong-learner/" | relative_url
+      excerpt="Se già capisci inglese ma vuoi finalmente usarlo."
+    %}
+
+  </div>
+
+</section>
+
+<!-- 🗣 SEZIONE 2: SKILLS -->
+<section class="section">
+
+  {% include components/section-title.html
+    title="Le tue abilità"
+    subtitle="Cosa impari davvero"
+  %}
+
+  <div class="grid">
+
+    {% include components/article-card.html
+      title="Speaking"
+      url="/inglese/skills/speaking/" | relative_url
+      excerpt="Parlare senza tradurre nella testa."
+    %}
+
+    {% include components/article-card.html
+      title="Metodo"
+      url="/inglese/skills/metodo/" | relative_url
+      excerpt="Come imparare velocemente e senza stress."
+    %}
+
+    {% include components/article-card.html
+      title="Grammatica"
+      url="/inglese/skills/grammatica/" | relative_url
+      excerpt="Solo la grammatica che serve davvero."
+    %}
+
+    {% include components/article-card.html
+      title="Vocabolario"
+      url="/inglese/skills/vocabolario/" | relative_url
+      excerpt="Parole usate nella vita reale."
+    %}
+
+  </div>
+
+</section>
+
+<!-- 🌍 SEZIONE 3: CONTESTO REALE -->
+<section class="section">
+
+  {% include components/section-title.html
+    title="Inglese nella vita reale"
+    subtitle="Usalo davvero, non solo studiarlo"
+  %}
+
+  <div class="grid">
+
+    {% include components/article-card.html
+      title="Viaggio"
+      url="/inglese/contesto/viaggio/" | relative_url
+      excerpt="Frasi utili per viaggiare senza stress."
+    %}
+
+    {% include components/article-card.html
+      title="Business"
+      url="/inglese/contesto/business/" | relative_url
+      excerpt="Inglese per lavoro e carriera."
+    %}
+
+    {% include components/article-card.html
+      title="Curiosità linguistiche"
+      url="/inglese/contesto/curiosita-linguistiche/" | relative_url
+      excerpt="Come parlano davvero i madrelingua."
+    %}
+
+    {% include components/article-card.html
+      title="Inglese Reale"
+      url="/inglese/contesto/inglese-reale/" | relative_url
+      excerpt="Espressioni che non trovi nei libri."
+    %}
+
+  </div>
+
+</section>
+
+<!-- 📣 CTA FINALE -->
+{% include sections/hero.html
+  title="Inizia oggi a parlare davvero inglese"
+  subtitle="Scegli il tuo percorso e cambia il tuo modo di imparare"
+  cta='<a href="{{ "/inglese/percorso/beginner/" | relative_url }}" class="btn btn-primary">Inizia ora</a>'
+%}
