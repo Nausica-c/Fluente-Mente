@@ -1,5 +1,14 @@
+/* NAVBAR */
+
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+
   padding: var(--space-4) 0;
+}
+
+.navbar__links {
+  display: flex;
+  gap: var(--space-4);
 }
