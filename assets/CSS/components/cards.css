@@ -1,0 +1,25 @@
+.article-card {
+  background: var(--color-surface-elevated);
+
+  border: 1px solid var(--color-border);
+
+  border-radius: var(--radius-lg);
+
+  overflow: hidden;
+
+  transition: 0.25s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.article-card__content {
+  padding: var(--space-5);
+}
+
+.article-card__title {
+  font-size: var(--text-xl);
+  line-height: 1.3;
+}
