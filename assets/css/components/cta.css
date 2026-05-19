@@ -1,0 +1,14 @@
+.cta-inline {
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  margin: var(--space-6) 0;
+  text-align: center;
+}
+
+.cta-banner {
+  padding: var(--space-7);
+  background: #eff6ff;
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
