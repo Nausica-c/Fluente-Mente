@@ -1,0 +1,15 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #0f172a;
+  --color-text-soft: #475569;
+
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  --color-border: #e2e8f0;
+
+  --color-surface: #f8fafc;
+
+  --radius-md: 12px;
+  --radius-lg: 18px;
+}
