@@ -1,51 +1,209 @@
+/* =========================================
+   FLUENTEMENTE DESIGN SYSTEM
+   SINGLE BUNDLE CSS (GITHUB PAGES SAFE)
+========================================= */
+
 /* =========================
    TOKENS
 ========================= */
 
-@import url("tokens/colors.css");
-@import url("tokens/spacing.css");
-@import url("tokens/typography.css");
+:root {
+  /* COLORS */
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-text-soft: #6b7280;
+  --color-primary: #2563eb;
+  --color-border: #e5e7eb;
+
+  /* SPACING */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* TYPOGRAPHY */
+  --font-body: system-ui, -apple-system, sans-serif;
+  --font-heading: system-ui, -apple-system, sans-serif;
+
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --text-2xl: 32px;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-loose: 1.7;
+}
 
 /* =========================
    BASE
 ========================= */
 
-@import url("base/reset.css");
-@import url("base/body.css");
-@import url("base/container.css");
-@import url("base/accessibility.css");
-@import url("base/breakpoints.css");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: var(--leading-normal);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* =========================
+   LAYOUT HELPERS
+========================= */
+
+.container {
+  width: min(1100px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--space-8);
+}
 
 /* =========================
    UTILITIES
 ========================= */
 
-@import url("utilities/spacing.css");
-@import url("utilities/grid.css");
-@import url("utilities/flex.css");
-@import url("utilities/helpers.css");
+.text-center {
+  text-align: center;
+}
 
-/* =========================
-   LAYOUTS
-========================= */
+.hidden {
+  display: none;
+}
 
-@import url("layouts/header.css");
-@import url("layouts/footer.css");
-@import url("layouts/section.css");
+.mt-4 { margin-top: var(--space-4); }
+.mt-6 { margin-top: var(--space-6); }
+.mb-4 { margin-bottom: var(--space-4); }
+.mb-6 { margin-bottom: var(--space-6); }
+
+/* GRID */
+
+.grid {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* FLEX */
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
 
 /* =========================
    COMPONENTS
 ========================= */
 
-@import url("components/buttons.css");
-@import url("components/cards.css");
-@import url("components/navbar.css");
-@import url("components/article.css");
-@import url("components/cta.css");
+/* NAVBAR */
+
+.navbar {
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* BUTTONS */
+
+.btn {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+/* CARDS */
+
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: var(--space-5);
+  background: white;
+}
+
+/* ARTICLE */
+
+.article__container {
+  width: min(760px, 100% - 32px);
+  margin-inline: auto;
+}
+
+.article__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: var(--leading-tight);
+  margin-bottom: var(--space-4);
+}
+
+.article__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+/* LIMIT TEXT WIDTH (IMPORTANTE UX) */
+.article__content p {
+  max-width: 70ch;
+}
+
+/* CTA */
+
+.cta-inline {
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cta-banner {
+  background: var(--color-primary);
+  color: white;
+  padding: var(--space-7);
+  border-radius: 16px;
+  text-align: center;
+}
 
 /* =========================
-   PAGES
+   RESPONSIVE
 ========================= */
 
-@import url("pages/home.css");
-@import url("pages/article-page.css");
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+   }
