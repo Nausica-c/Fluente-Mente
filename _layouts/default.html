@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" href="/assets/css/app.css">
+</head>
+
+<body>
+
+  <!-- 🧭 NAVBAR -->
+  {% include navbar.html %}
+
+  <!-- 📦 CONTENUTO -->
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- 📣 FOOTER -->
+  {% include footer.html %}
+
+</body>
+</html>
