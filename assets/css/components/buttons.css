@@ -1,9 +1,20 @@
+/* BUTTONS */
+
 .btn {
   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 12px 18px;
+
   border-radius: var(--radius-md);
+
   font-weight: 600;
+
+  cursor: pointer;
 }
+
+/* PRIMARY BUTTON */
 
 .btn-primary {
   background: var(--color-primary);
