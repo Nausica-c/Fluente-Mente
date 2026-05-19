@@ -1,0 +1,21 @@
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+
+  background: var(--color-bg);
+  color: var(--color-text);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  width: min(1120px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.container-narrow {
+  width: min(760px, calc(100% - 32px));
+  margin-inline: auto;
+}
