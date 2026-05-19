@@ -1,7 +1,9 @@
 :root {
-  --font-heading: "Inter", sans-serif;
+  /* 📝 FONT FAMILY */
   --font-body: "Inter", sans-serif;
+  --font-heading: "Inter", sans-serif;
 
+  /* 📏 FONT SIZE */
   --text-sm: 0.875rem;
   --text-base: 1rem;
   --text-lg: 1.125rem;
@@ -9,6 +11,8 @@
   --text-2xl: 1.5rem;
   --text-3xl: 2rem;
 
-  --leading-normal: 1.6;
+  /* 📐 LINE HEIGHT */
   --leading-tight: 1.2;
+  --leading-normal: 1.6;
+  --leading-loose: 1.8;
 }
