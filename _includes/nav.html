@@ -1,11 +1,18 @@
 <nav class="main-nav">
   <ul>
-    {% for item in site.data.navigation %}
-      <li>
-        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
-          {{ item.title }}
-        </a>
-      </li>
-    {% endfor %}
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    
+    <!-- Menu a tendina Lingue -->
+    <li class="dropdown">
+      <a href="#">Lingue ▾</a>
+      <ul class="dropdown-content">
+        <li><a href="{{ '/inglese/' | relative_url }}">Inglese</a></li>
+        <li><a href="{{ '/spagnolo/' | relative_url }}">Spagnolo</a></li>
+        <li><a href="{{ '/tedesco/' | relative_url }}">Tedesco</a></li>
+        <li><a href="{{ '/portoghese/' | relative_url }}">Portoghese</a></li>
+      </ul>
+    </li>
+
+    <li><a href="{{ '/metodo/' | relative_url }}">Il Metodo</a></li>
   </ul>
 </nav>
