@@ -1,0 +1,80 @@
+/* --- Reset & Variabili --- */
+:root {
+  --primary-color: #2c3e50;
+  --accent-color: #3498db;
+  --bg-color: #f4f7f6;
+  --card-bg: #ffffff;
+  --text-color: #333;
+  --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* --- Navigazione --- */
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.main-nav a.active {
+  background: var(--accent-color);
+  color: white;
+}
+
+/* --- Container Card (Grid System) --- */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* --- Stile della Singola Card --- */
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 { margin-bottom: 10px; color: var(--primary-color); }
+
+/* --- Box "In Breve" (Specifico per il microlearning) --- */
+.in-breve {
+  background: #eef7fd;
+  border-left: 4px solid var(--accent-color);
+  padding: 15px;
+  margin: 20px 0;
+  font-size: 0.9em;
+}
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 600px) {
+  .main-nav ul { flex-direction: column; align-items: center; }
+  body { padding: 10px; }
+}
