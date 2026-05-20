@@ -1,10 +1,10 @@
-/* --- 1. Reset & Variabili (Palette Babbel-Inspired) --- */
+/* --- 1. Reset & Variabili (Babbel-Inspired) --- */
 :root {
-  --primary-color: #262626;     /* Antracite scuro per titoli e testo */
-  --accent-color: #1a8c6a;      /* Verde Babbel per dettagli e interazione */
-  --bg-color: #f7f7f7;          /* Sfondo pulito e riposante */
+  --primary-color: #262626;     /* Antracite scuro */
+  --accent-color: #1a8c6a;      /* Verde brillante */
+  --bg-color: #f7f7f7;          /* Sfondo riposante */
   --card-bg: #ffffff;
-  --text-color: #4a4a4a;        /* Grigio morbido per paragrafi */
+  --text-color: #4a4a4a;        /* Grigio morbido */
   --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -15,22 +15,39 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.7;
-  padding: 20px;
+  padding: 0; /* Tolto il padding globale per permettere sfondi full-width */
 }
 
+/* Wrapper principale per centrare il contenuto */
 main {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px 20px;
 }
 
-/* --- 2. Navigazione --- */
+/* --- 2. Navigazione & Dropdown --- */
+.site-header {
+  background: #ffffff;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between; /* Spinge logo e menu ai lati */
+  align-items: center;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+
 .main-nav ul {
   display: flex;
   list-style: none;
   gap: 20px;
-  justify-content: center;
-  margin-bottom: 50px;
+  align-items: center;
 }
 
 .main-nav a {
@@ -42,107 +59,109 @@ main {
   transition: all 0.3s ease;
 }
 
-.main-nav a.active {
-  background: var(--accent-color); /* Verde Babbel attivo */
+.main-nav a:hover, .main-nav a.active {
+  background: var(--accent-color);
   color: white;
 }
 
-/* --- 3. Grid System (Card) --- */
+/* --- 3. Il Meglio della Home (Hero & Grid) --- */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+}
+
+.hero h1 { font-size: 2.8rem; color: var(--primary-color); margin-bottom: 15px; }
+.hero p { font-size: 1.2rem; color: var(--text-color); max-width: 600px; margin: 0 auto; }
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 24px;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
 }
 
 .card {
   background: var(--card-bg);
-  padding: 24px;
+  padding: 30px;
   border-radius: 16px;
   border: 1px solid rgba(0,0,0,0.04);
   box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover { 
   box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);
-  transform: translateY(-8px); 
+  transform: translateY(-5px); 
 }
 
-.card h3 { margin-bottom: 12px; color: var(--primary-color); font-weight: 700; }
+.card h3 { margin-bottom: 15px; font-size: 1.4rem; color: var(--primary-color); }
+.card p { flex-grow: 1; margin-bottom: 20px; font-size: 1rem; }
 
-/* --- 4. Leggibilità Articoli --- */
+/* Bottoni in stile Babbel */
+.btn {
+  display: inline-block;
+  background: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  transition: background 0.2s;
+}
+.btn:hover { background: #146c52; }
+
+/* --- 4. Il Meglio delle Pagine Interne (Es. Viaggiare.html) --- */
 article .content {
-    max-width: 700px;
-    margin: 0 auto;
-    font-size: 1.15rem;
+  max-width: 720px; /* Perfetto per la lettura visiva */
+  margin: 0 auto;
+  font-size: 1.15rem;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
 }
 
-article p { margin-bottom: 1.6rem; }
+article p { margin-bottom: 1.8rem; }
 
-article h1 {
-    font-weight: 800;
-    margin-bottom: 2rem;
-    color: var(--primary-color);
-    letter-spacing: -0.02em;
-}
+article h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 1.5rem; letter-spacing: -0.02em; }
+article h2 { font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.2rem; border-bottom: 2px solid var(--bg-color); padding-bottom: 0.5rem; }
 
-article h2, article h3 {
-    margin-top: 3.5rem;
-    margin-bottom: 1.2rem;
-    color: var(--primary-color);
-    font-weight: 700;
-}
-
-/* Liste Eleganti (Verdi) */
-article ul { list-style: none; margin-bottom: 2rem; }
-article ul li {
-    padding-left: 28px;
-    position: relative;
-    margin-bottom: 12px;
-}
-article ul li::before {
-    content: "✓";
-    color: var(--accent-color);
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-}
-
-/* --- 5. Componenti Microlearning --- */
-.in-breve {
-  background: #eafaf5; /* Verde molto chiaro per box */
+/* Liste Vocabolario (Ottime per frasi di viaggio) */
+.vocab-list { list-style: none; margin-bottom: 2.5rem; padding: 0; }
+.vocab-list li {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  background: var(--bg-color);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
   border-left: 4px solid var(--accent-color);
-  padding: 20px;
-  margin: 25px 0;
-  font-size: 0.95em;
-  border-radius: 0 8px 8px 0;
 }
+.vocab-list strong { color: var(--primary-color); }
 
-/* --- 6. Mobile Responsiveness --- */
-@media (max-width: 600px) {
-  .main-nav ul { flex-direction: column; align-items: center; gap: 10px; }
-  body { padding: 10px; }
-  .grid-container { grid-template-columns: 1fr; }
-  article h1 { font-size: 1.8rem; }
-}
-.dropdown { position: relative; }
-.dropdown-content {
-  display: none; position: absolute; background: white;
-  min-width: 150px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  padding: 10px; border-radius: 8px; z-index: 1;
-}
-.dropdown:hover .dropdown-content { display: block; }
-.dropdown-content li { display: block; margin: 5px 0; }
-  
+/* --- 5. Footer Professionale --- */
 .site-footer {
   text-align: center;
-  padding: 40px;
-  border-top: 1px solid #eee;
-  margin-top: 50px;
-  font-size: 0.85rem;
-  color: #666;
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #eaeaea;
+  margin-top: 60px;
+  font-size: 0.9rem;
 }
-.footer-links a { color: var(--primary-color); text-decoration: none; margin: 0 10px; }
-.social-links { margin: 15px 0; }
-.social-links a { color: var(--accent-color); font-weight: bold; }
+.footer-links a, .social-links a { color: var(--accent-color); text-decoration: none; margin: 0 12px; font-weight: 600; }
+.footer-links a:hover { text-decoration: underline; }
+
+/* --- 6. Mobile Responsiveness --- */
+@media (max-width: 768px) {
+  .site-header { flex-direction: column; gap: 15px; }
+  .main-nav ul { flex-wrap: wrap; justify-content: center; }
+  .hero h1 { font-size: 2rem; }
+  article .content { padding: 25px 15px; font-size: 1.05rem; }
+  .vocab-list li { flex-direction: column; gap: 5px; }
+}
