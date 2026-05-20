@@ -1,0 +1,48 @@
+# Informazioni di base
+title: FluenteMente
+description: "Impara le lingue in 15 minuti al giorno."
+url: "https://nausica-c.github.io"
+baseurl: "/FluenteMente"
+
+# Definizione delle Collezioni (Lingue)
+collections:
+  inglese:
+    output: true
+    permalink: /inglese/:path/
+  spagnolo:
+    output: true
+    permalink: /spagnolo/:path/
+  tedesco:
+    output: true
+    permalink: /tedesco/:path/
+  portoghese:
+    output: true
+    permalink: /portoghese/:path/
+
+# Default per evitare di scrivere 'layout: post' in ogni file
+defaults:
+  - scope:
+      path: ""
+      type: "inglese"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "spagnolo"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "tedesco"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "portoghese"
+    values:
+      layout: "post"
+
+# SEO e Utility
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
