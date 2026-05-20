@@ -1,6 +1,13 @@
 <footer class="site-footer">
-    <div class="footer-content">
-        <p>&copy; {{ 'now' | date: "%Y" }} FluenteMente. Tutti i diritti riservati.</p>
-        <p>Microlearning: 15 minuti al giorno per il tuo successo.</p>
-    </div>
+  <div class="footer-links">
+    <a href="{{ '/chi-sono/' | relative_url }}">Chi Sono</a> |
+    <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a> |
+    <a href="{{ '/affiliate-disclosure/' | relative_url }}">Affiliate Disclosure</a>
+  </div>
+  
+  <div class="social-links">
+    <a href="https://pinterest.com/tuo-profilo" target="_blank">Seguimi su Pinterest</a>
+  </div>
+  
+  <p>&copy; {{ 'now' | date: "%Y" }} FluenteMente. Tutti i diritti riservati.</p>
 </footer>
