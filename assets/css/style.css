@@ -126,3 +126,23 @@ article ul li::before {
   .grid-container { grid-template-columns: 1fr; }
   article h1 { font-size: 1.8rem; }
 }
+.dropdown { position: relative; }
+.dropdown-content {
+  display: none; position: absolute; background: white;
+  min-width: 150px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  padding: 10px; border-radius: 8px; z-index: 1;
+}
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown-content li { display: block; margin: 5px 0; }
+  
+.site-footer {
+  text-align: center;
+  padding: 40px;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+  font-size: 0.85rem;
+  color: #666;
+}
+.footer-links a { color: var(--primary-color); text-decoration: none; margin: 0 10px; }
+.social-links { margin: 15px 0; }
+.social-links a { color: var(--accent-color); font-weight: bold; }
