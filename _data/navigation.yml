@@ -1,0 +1,24 @@
+- title: Home
+  url: /
+  icon: "home"
+
+- title: Inglese
+  url: /inglese/
+  icon: "flag-gb"
+
+- title: Spagnolo
+  url: /spagnolo/
+  icon: "flag-es"
+
+- title: Tedesco
+  url: /tedesco/
+  icon: "flag-de"
+
+- title: Portoghese
+  url: /portoghese/
+  icon: "flag-pt"
+
+- title: Il Metodo
+  url: /metodo/
+  icon: "info"
+  
