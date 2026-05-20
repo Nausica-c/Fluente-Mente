@@ -1,10 +1,10 @@
-/* --- 1. Reset & Variabili --- */
+/* --- 1. Reset & Variabili (Palette Babbel-Inspired) --- */
 :root {
-  --primary-color: #2c3e50;
-  --accent-color: #3498db;
-  --bg-color: #f9f9f9; /* Leggermente più caldo */
+  --primary-color: #262626;     /* Antracite scuro per titoli e testo */
+  --accent-color: #1a8c6a;      /* Verde Babbel per dettagli e interazione */
+  --bg-color: #f7f7f7;          /* Sfondo pulito e riposante */
   --card-bg: #ffffff;
-  --text-color: #2d3436; /* Leggermente più morbido del nero */
+  --text-color: #4a4a4a;        /* Grigio morbido per paragrafi */
   --font-main: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -43,11 +43,11 @@ main {
 }
 
 .main-nav a.active {
-  background: var(--accent-color);
+  background: var(--accent-color); /* Verde Babbel attivo */
   color: white;
 }
 
-/* --- 3. Grid System (Le Card) --- */
+/* --- 3. Grid System (Card) --- */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -94,7 +94,7 @@ article h2, article h3 {
     font-weight: 700;
 }
 
-/* Liste Eleganti */
+/* Liste Eleganti (Verdi) */
 article ul { list-style: none; margin-bottom: 2rem; }
 article ul li {
     padding-left: 28px;
@@ -111,7 +111,7 @@ article ul li::before {
 
 /* --- 5. Componenti Microlearning --- */
 .in-breve {
-  background: #eef7fd;
+  background: #eafaf5; /* Verde molto chiaro per box */
   border-left: 4px solid var(--accent-color);
   padding: 20px;
   margin: 25px 0;
